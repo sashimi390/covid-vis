@@ -9,9 +9,9 @@ function VerticalAxis({ scale, val }) {
     <g>
       <line x1={x} y1={y1} x2={x} y2={y2} stroke={strokeColor} />
       <g>
-        {scale.ticks().map((y) => {
+        {scale.ticks().map((y, i) => {
           return (
-            <g transform={`translate(0,${scale(y)})`}>
+            <g key={i} transform={`translate(0,${scale(y)})`}>
               <line
                 x1="0"
                 y1={scale(y)}
@@ -34,7 +34,7 @@ function VerticalAxis({ scale, val }) {
           textAnchor="end"
           dominantBaseline="central"
           fontSize="12"
-          transform="translate(-40,200)rotate(-90)"
+          transform="translate(-65,600)rotate(-90)"
         >
           {val}
         </text>
@@ -46,15 +46,15 @@ function VerticalAxis({ scale, val }) {
 
 function HorizontalAxis({ scale, val }) {
   const strokeColor = "#888";
-  const y = 400;
+  const y = 1200;
   const [x1, x2] = scale.range();
   return (
     <g>
       <line x1={x1} y1={y} x2={x2} y2={y} stroke={strokeColor} />
       <g>
-        {scale.ticks().map((x) => {
+        {scale.ticks().map((x, i) => {
           return (
-            <g transform={`translate(${scale(x)},400)`}>
+            <g key={i} transform={`translate(${scale(x)},800)`}>
               <line y1="-10" y2="0" stroke={strokeColor} />
               <text
                 y="15"
@@ -72,7 +72,7 @@ function HorizontalAxis({ scale, val }) {
         textAnchor="end"
         dominantBaseline="central"
         fontSize="12"
-        transform="translate(250,430)"
+        transform="translate(400,1230)"
       >
         {val}
       </text>
@@ -85,8 +85,8 @@ function Legend({ color }) {
     <g>
       {color.domain().map((data, i) => {
         return (
-          <g key={i} transform={`translate(420,${i * 20})`}>
-            <circle r="5" fill={color(data)} />
+          <g key={i} transform={`translate(840,${i * 20})`}>
+            <circle r="3" fill={color(data)} />
             <text x="10" y="3" fontSize="12">
               {data}{" "}
             </text>
@@ -101,29 +101,25 @@ export default function App() {
   const margin = {
     top: 10,
     bottom: 50,
-    left: 50,
+    left: 70,
     right: 100,
   };
-  const contentWidth = 400;
-  const contentHeight = 400;
+  const contentWidth = 800;
+  const contentHeight = 1200;
 
   const [data, setData] = useState([]);
 
   useEffect(() => {
     (async () => {
-      const request = await fetch("data.json");
+      const request = await fetch("covid_data.json");
       const data = await request.json();
       setData(data);
     })();
   }, []);
 
-  const [xProperty, setXProperty] = useState("Positive");
+  const [xProperty, setXProperty] = useState("date");
 
-  const handleChangeX = (event) => {
-    setXProperty(event.target.value);
-  };
-
-  const [yProperty, setYProperty] = useState("Tested");
+  const [yProperty, setYProperty] = useState("peopleTested");
   const handleChangeY = (event) => {
     setYProperty(event.target.value);
   };
@@ -133,44 +129,46 @@ export default function App() {
   const xScale = d3
     .scaleLinear()
     .domain(d3.extent(data, (item) => item[xProperty]))
+
     .range([0, contentWidth])
     .nice();
 
+  var x2 = d3
+    .scaleTime()
+    .domain(d3.extent(data, (d) => new Date(d.date)))
+    .range([0, contentWidth]);
+
   const yScale = d3
     .scaleLinear()
-    .domain(d3.extent(data, (item) => item[yProperty]))
+    .domain(d3.extent(data, (item) => parseInt(item[yProperty])))
     .range([contentHeight, 0])
     .nice();
 
-  const colorScale = d3.scaleOrdinal(d3.schemeSet2);
+  const line = d3
+    .line()
+    .x(function (m) {
+      return x2(m.extent);
+    })
+    .y(function (m) {
+      return yScale(m.peopleTested);
+    });
+
+  const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
   const svgWidth = margin.right + margin.left + contentWidth;
   const svgHeight = margin.top + margin.bottom + contentHeight;
-  console.log(data);
 
   return (
     <div>
       <div>
         <form>
-          <label className="label">xProperty</label>
-          <select onChange={handleChangeX}>
-            <option value="Hokkaido">北海道</option>
-            <option value="Tokyo">東京都</option>
-            <option value="Kanagawa">神奈川県</option>
-            <option value="Osaka"> 大阪府</option>
-            <option value="Okinawa"> 沖縄県</option>
-          </select>
-        </form>
-      </div>
-      <div>
-        <form>
-          <label>yProperty</label>
+          <label className="label">yProperty</label>
           <select onChange={handleChangeY}>
-            <option value="Hokkaido">北海道</option>
-            <option value="Tokyo">東京都</option>
-            <option value="Kanagawa">神奈川県</option>
-            <option value="Osaka"> 大阪府</option>
-            <option value="Okinawa"> 沖縄県</option>
+            <option value="testedPositive">陽性者数</option>
+            <option value="peopleTested">PCR検査数</option>
+            <option value="hospitalized">入院者数</option>
+            <option value="serious">重症者数</option>
+            <option value="deaths">死者数</option>
           </select>
         </form>
       </div>
@@ -188,10 +186,10 @@ export default function App() {
               <circle
                 className="move"
                 key={i}
-                cx={xScale(item[xProperty])}
+                cx={x2(new Date(item[xProperty]))}
                 cy={yScale(item[yProperty])}
-                r="5"
-                fill={colorScale(item.prefE)}
+                r="3"
+                fill={colorScale(item.prefectureNameJ)}
                 style={{
                   transitionDuration: "1s",
                   transitionProperty: "all",
@@ -199,6 +197,19 @@ export default function App() {
               />
             );
           })}
+          ;
+        </g>
+        <g>
+          {data.map((item, i) => {
+            return (
+              <path
+                key={i}
+                stroke={colorScale(item.prefectureNameJ)}
+                m={line(data)}
+              />
+            );
+          })}
+          ;
         </g>
       </svg>
     </div>
