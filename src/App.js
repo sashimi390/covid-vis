@@ -146,11 +146,11 @@ export default function App() {
 
   const line = d3
     .line()
-    .x(function (m) {
-      return x2(m.extent);
+    .x(function (d) {
+      return x2(d.extent);
     })
-    .y(function (m) {
-      return yScale(m.peopleTested);
+    .y(function (d) {
+      return yScale(d.peopleTested);
     });
 
   const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
@@ -205,7 +205,7 @@ export default function App() {
               <path
                 key={i}
                 stroke={colorScale(item.prefectureNameJ)}
-                m={line(data)}
+                d={line(data)}
               />
             );
           })}
