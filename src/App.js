@@ -151,7 +151,7 @@ export default function App() {
       return x2(new Date(d.date));
     })
     .y(function (d) {
-      return yScale(d.peopleTested);
+      return yScale(d[yProperty]);
     });
 
   const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
