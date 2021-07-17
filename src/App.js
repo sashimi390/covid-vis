@@ -47,17 +47,13 @@ function VerticalAxis({ scale, val }) {
 function HorizontalAxis({ scale, val, x2 }) {
   const strokeColor = "#888";
   const y = 1200;
-  /*
-  const [x1, x2] = scale.range();
-  console.log(x1, x2)
-  */
-  console.log(scale);
+  /* console.log(scale); */
   return (
     <g>
       <line x1={0} y1={y} x2={800} y2={y} stroke={strokeColor} />
       <g>
         {scale.map((x, i) => {
-          console.log(x2(new Date(x)));
+          /* console.log(x2(new Date(x))); */
           return (
             <g
               key={i}
@@ -134,15 +130,7 @@ export default function App() {
   };
   console.log(contentWidth);
 
-  /* //わからんから変えた、知らん
-  const xScale = d3
-    .scaleLinear()
-    .domain(d3.extent(data, (item) => item[xProperty]))
-    .range([0, contentWidth])
-    .nice()
-  */
-
-  // 雑にデータ格納した
+  // データ格納
   const xScale = data.map((data) => data[xProperty]).slice(0, 24);
 
   var x2 = d3
