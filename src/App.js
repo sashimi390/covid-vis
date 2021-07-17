@@ -147,7 +147,7 @@ export default function App() {
   const line = d3
     .line()
     .x(function (d) {
-      return x2(d.extent);
+      return x2(new Date(d.date));
     })
     .y(function (d) {
       return yScale(d.peopleTested);
@@ -205,6 +205,7 @@ export default function App() {
               <path
                 key={i}
                 stroke={colorScale(item.prefectureNameJ)}
+                fill="none"
                 d={line(data)}
               />
             );
