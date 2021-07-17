@@ -47,13 +47,12 @@ function VerticalAxis({ scale, val }) {
 function HorizontalAxis({ scale, val, x2 }) {
   const strokeColor = "#888";
   const y = 1200;
-  /* console.log(scale); */
+
   return (
     <g>
       <line x1={0} y1={y} x2={800} y2={y} stroke={strokeColor} />
       <g>
         {scale.map((x, i) => {
-          /* console.log(x2(new Date(x))); */
           return (
             <g
               key={i}
@@ -113,12 +112,16 @@ export default function App() {
   const contentHeight = 1200;
 
   const [data, setData] = useState([]);
+  const [data2, setData2] = useState([]);
 
   useEffect(() => {
     (async () => {
       const request = await fetch("covid_data.json");
       const data = await request.json();
+      const request2 = await fetch("covid_data2.json");
+      const data2 = await request2.json();
       setData(data);
+      setData2(data2);
     })();
   }, []);
 
@@ -128,11 +131,9 @@ export default function App() {
   const handleChangeY = (event) => {
     setYProperty(event.target.value);
   };
-  console.log(contentWidth);
 
-  // データ格納
   const xScale = data.map((data) => data[xProperty]).slice(0, 24);
-
+  console.log(xScale);
   var x2 = d3
     .scaleTime()
     .domain(d3.extent(data, (d) => new Date(d.date)))
@@ -154,6 +155,7 @@ export default function App() {
     });
 
   const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+  console.log(colorScale);
 
   const svgWidth = margin.right + margin.left + contentWidth;
   const svgHeight = margin.top + margin.bottom + contentHeight;
@@ -182,6 +184,7 @@ export default function App() {
         <Legend color={colorScale} />
         <g>
           {data.map((item, i) => {
+            console.log(item);
             return (
               <circle
                 className="move"
@@ -197,16 +200,19 @@ export default function App() {
               />
             );
           })}
-          ;
         </g>
         <g>
-          {data.map((item, i) => {
+          {data2.map((item, i) => {
             return (
               <path
                 key={i}
-                stroke={colorScale(item.prefectureNameJ)}
+                stroke={colorScale(item.prefecture)}
                 fill="none"
-                d={line(data)}
+                d={line(item.values)}
+                style={{
+                  transitionDuration: "1s",
+                  transitionProperty: "all",
+                }}
               />
             );
           })}
