@@ -1,360 +1,1311 @@
 [
-{"date":"2020-07-01","prefectureNameJ":"北海道","testedPositive":"1267","peopleTested":"21190.0","hospitalized":"103.0","serious":"5","discharged":"1072.0","deaths":"100","effectiveReproductionNumber":"1.75"}
-,
-{"date":"2020-07-15","prefectureNameJ":"北海道","testedPositive":"1317","peopleTested":"24041.0","hospitalized":"66.0","serious":"5","discharged":"1139.0","deaths":"102","effectiveReproductionNumber":"1.83"}
-,
-{"date":"2020-07-31","prefectureNameJ":"北海道","testedPositive":"1428","peopleTested":"29114.0","hospitalized":"73.0","serious":"3","discharged":"1243.0","deaths":"103","effectiveReproductionNumber":"1.0"}
-,
-{"date":"2020-08-01","prefectureNameJ":"北海道","testedPositive":"1446","peopleTested":"29610.0","hospitalized":"82.0","serious":"3","discharged":"1247.0","deaths":"103","effectiveReproductionNumber":"1.19"}
-,
-{"date":"2020-08-15","prefectureNameJ":"北海道","testedPositive":"1619","peopleTested":"36031.0","hospitalized":"134.0","serious":"3","discharged":"1379.0","deaths":"103","effectiveReproductionNumber":"0.87"}
-,
-{"date":"2020-08-31","prefectureNameJ":"北海道","testedPositive":"1781","peopleTested":"44276.0","hospitalized":"130.0","serious":"2","discharged":"1558.0","deaths":"103","effectiveReproductionNumber":"0.77"}
-,
-{"date":"2020-09-01","prefectureNameJ":"北海道","testedPositive":"1797","peopleTested":"44770.0","hospitalized":"120.0","serious":"2","discharged":"1567.0","deaths":"103","effectiveReproductionNumber":"0.84"}
-,
-{"date":"2020-09-15","prefectureNameJ":"北海道","testedPositive":"1892","peopleTested":"50527.0","hospitalized":"61.0","serious":"2","discharged":"1724.0","deaths":"106","effectiveReproductionNumber":"0.99"}
-,
-{"date":"2020-09-30","prefectureNameJ":"北海道","testedPositive":"2107","peopleTested":"57520.0","hospitalized":"136.0","serious":"0","discharged":"1862.0","deaths":"107","effectiveReproductionNumber":"1.13"}
-,
-{"date":"2020-10-01","prefectureNameJ":"北海道","testedPositive":"2126","peopleTested":"58133.0","hospitalized":"138.0","serious":"0","discharged":"1881.0","deaths":"107","effectiveReproductionNumber":"1.16"}
-,
-{"date":"2020-10-15","prefectureNameJ":"北海道","testedPositive":"2460","peopleTested":"68209.0","hospitalized":"194.0","serious":"1","discharged":"2166.0","deaths":"107","effectiveReproductionNumber":"0.97"}
-,
-{"date":"2020-10-31","prefectureNameJ":"北海道","testedPositive":"3136","peopleTested":"82323.0","hospitalized":"408.0","serious":"6","discharged":"2580.0","deaths":"110","effectiveReproductionNumber":"1.35"}
-,
-{"date":"2020-11-01","prefectureNameJ":"北海道","testedPositive":"3205","peopleTested":"83712.0","hospitalized":"446.0","serious":"6","discharged":"2603.0","deaths":"110","effectiveReproductionNumber":"1.36"}
-,
-{"date":"2020-11-15","prefectureNameJ":"北海道","testedPositive":"5494","peopleTested":"108980.0","hospitalized":"1719.0","serious":"18","discharged":"3525.0","deaths":"127","effectiveReproductionNumber":"1.52"}
-,
-{"date":"2020-11-30","prefectureNameJ":"北海道","testedPositive":"8869","peopleTested":"151817.0","hospitalized":"2425.0","serious":"27","discharged":"6394.0","deaths":"194","effectiveReproductionNumber":"0.92"}
-,
-{"date":"2020-12-01","prefectureNameJ":"北海道","testedPositive":"9075","peopleTested":"154998.0","hospitalized":"2281.0","serious":"28","discharged":"6588.0","deaths":"208","effectiveReproductionNumber":"0.91"}
-,
-{"date":"2020-12-15","prefectureNameJ":"北海道","testedPositive":"11564","peopleTested":"196775.0","hospitalized":"2243.0","serious":"34","discharged":"9040.0","deaths":"341","effectiveReproductionNumber":"0.95"}
-,
-{"date":"2020-12-31","prefectureNameJ":"北海道","testedPositive":"13442","peopleTested":"238793.0","hospitalized":"1659.0","serious":"22","discharged":"11309.0","deaths":"453","effectiveReproductionNumber":"1.0"}
-,
-{"date":"2021-01-01","prefectureNameJ":"北海道","testedPositive":"13540","peopleTested":"240878.0","hospitalized":"1680.0","serious":"19","discharged":"11418.0","deaths":"456","effectiveReproductionNumber":"1.04"}
-,
-{"date":"2021-01-15","prefectureNameJ":"北海道","testedPositive":"15502","peopleTested":"274167.0","hospitalized":"1578.0","serious":"10","discharged":"13344.0","deaths":"527","effectiveReproductionNumber":"1.36"}
-,
-{"date":"2021-01-31","prefectureNameJ":"北海道","testedPositive":"17445","peopleTested":"319815.0","hospitalized":"1344.0","serious":"12","discharged":"15479.0","deaths":"602","effectiveReproductionNumber":"0.93"}
-,
-{"date":"2021-02-01","prefectureNameJ":"北海道","testedPositive":"17521","peopleTested":"321207.0","hospitalized":"1364.0","serious":"12","discharged":"15579.0","deaths":"607","effectiveReproductionNumber":"0.95"}
-,
-{"date":"2021-02-15","prefectureNameJ":"北海道","testedPositive":"18534","peopleTested":"352699.0","hospitalized":"832.0","serious":"13","discharged":"17069.0","deaths":"640","effectiveReproductionNumber":"0.75"}
-,
-{"date":"2021-02-28","prefectureNameJ":"北海道","testedPositive":"19093","peopleTested":"381062.0","hospitalized":"577.0","serious":"3","discharged":"17867.0","deaths":"677","effectiveReproductionNumber":"0.9"}
-,
-{"date":"2021-03-01","prefectureNameJ":"北海道","testedPositive":"19122","peopleTested":"382054.0","hospitalized":"549.0","serious":"3","discharged":"17900.0","deaths":"679","effectiveReproductionNumber":"0.97"}
-,
-{"date":"2021-03-15","prefectureNameJ":"北海道","testedPositive":"19944","peopleTested":"412087.0","hospitalized":"703.0","serious":"3","discharged":"18534.0","deaths":"709","effectiveReproductionNumber":"0.99"}
-,
-{"date":"2021-03-31","prefectureNameJ":"北海道","testedPositive":"20994","peopleTested":"448391.0","hospitalized":"759.0","serious":"16","discharged":"19443.0","deaths":"749","effectiveReproductionNumber":"0.99"}
-,
-{"date":"2021-04-01","prefectureNameJ":"北海道","testedPositive":"21051","peopleTested":"451342.0","hospitalized":"802.0","serious":"17","discharged":"19539.0","deaths":"752","effectiveReproductionNumber":"1.02"}
-,
-{"date":"2021-04-15","prefectureNameJ":"北海道","testedPositive":"22076","peopleTested":"482910.0","hospitalized":"845.0","serious":"22","discharged":"20409.0","deaths":"790","effectiveReproductionNumber":"1.15"}
-,
-{"date":"2021-04-30","prefectureNameJ":"北海道","testedPositive":"24170","peopleTested":"529203.0","hospitalized":"1626.0","serious":"22","discharged":"21568.0","deaths":"860","effectiveReproductionNumber":"1.28"}
-,
-{"date":"2021-05-01","prefectureNameJ":"北海道","testedPositive":"24350","peopleTested":"531696.0","hospitalized":"1742.0","serious":"23","discharged":"21726.0","deaths":"861","effectiveReproductionNumber":"1.24"}
-,
-{"date":"2021-05-15","prefectureNameJ":"北海道","testedPositive":"29911","peopleTested":"591839.0","hospitalized":"4765.0","serious":"31","discharged":"23890.0","deaths":"929","effectiveReproductionNumber":"1.67"}
-,
-{"date":"2021-05-31","prefectureNameJ":"北海道","testedPositive":"37959","peopleTested":"682098.0","hospitalized":"7991.0","serious":"53","discharged":"29019.0","deaths":"1112","effectiveReproductionNumber":"0.79"}
-,
-{"date":"2021-06-01","prefectureNameJ":"北海道","testedPositive":"38213","peopleTested":"685540.0","hospitalized":"7828.0","serious":"56","discharged":"29778.0","deaths":"1128","effectiveReproductionNumber":"0.76"}
-,
-{"date":"2021-06-15","prefectureNameJ":"北海道","testedPositive":"40633","peopleTested":"738158.0","hospitalized":"3481.0","serious":"32","discharged":"35988.0","deaths":"1319","effectiveReproductionNumber":"0.67"}
-,
-{"date":"2021-06-29","prefectureNameJ":"北海道","testedPositive":"41294","peopleTested":"775042.0","hospitalized":"1210.0","serious":"30","discharged":"38782.0","deaths":"1394","effectiveReproductionNumber":"0.65"}
-,
-{"date":"2020-07-01","prefectureNameJ":"東京都","testedPositive":"6292","peopleTested":"92069.0","hospitalized":"493.0","serious":"10","discharged":"5474.0","deaths":"325","effectiveReproductionNumber":"1.34"}
-,
-{"date":"2020-07-15","prefectureNameJ":"東京都","testedPositive":"8353","peopleTested":"133338.0","hospitalized":"1419.0","serious":"8","discharged":"6608.0","deaths":"326","effectiveReproductionNumber":"1.48"}
-,
-{"date":"2020-07-31","prefectureNameJ":"東京都","testedPositive":"12689","peopleTested":"197613.0","hospitalized":"2742.0","serious":"16","discharged":"9615.0","deaths":"332","effectiveReproductionNumber":"1.11"}
-,
-{"date":"2020-08-15","prefectureNameJ":"東京都","testedPositive":"17451","peopleTested":"263555.0","hospitalized":"3517.0","serious":"23","discharged":"13596.0","deaths":"338","effectiveReproductionNumber":"0.86"}
-,
-{"date":"2020-08-31","prefectureNameJ":"東京都","testedPositive":"20814","peopleTested":"332159.0","hospitalized":"2592.0","serious":"32","discharged":"17859.0","deaths":"363","effectiveReproductionNumber":"0.92"}
-,
-{"date":"2020-09-01","prefectureNameJ":"東京都","testedPositive":"20984","peopleTested":"337935.0","hospitalized":"2562.0","serious":"29","discharged":"18058.0","deaths":"364","effectiveReproductionNumber":"0.93"}
-,
-{"date":"2020-09-15","prefectureNameJ":"東京都","testedPositive":"23270","peopleTested":"402463.0","hospitalized":"2281.0","serious":"21","discharged":"20603.0","deaths":"386","effectiveReproductionNumber":"1.15"}
-,
-{"date":"2020-09-30","prefectureNameJ":"東京都","testedPositive":"25732","peopleTested":"465884.0","hospitalized":"2177.0","serious":"21","discharged":"23147.0","deaths":"408","effectiveReproductionNumber":"1.18"}
-,
-{"date":"2020-10-01","prefectureNameJ":"東京都","testedPositive":"25966","peopleTested":"471203.0","hospitalized":"2127.0","serious":"22","discharged":"23430.0","deaths":"409","effectiveReproductionNumber":"1.19"}
-,
-{"date":"2020-10-15","prefectureNameJ":"東京都","testedPositive":"28405","peopleTested":"536616.0","hospitalized":"1887.0","serious":"25","discharged":"26091.0","deaths":"427","effectiveReproductionNumber":"1.1"}
-,
-{"date":"2020-10-31","prefectureNameJ":"東京都","testedPositive":"31082","peopleTested":"606364.0","hospitalized":"1741.0","serious":"33","discharged":"28886.0","deaths":"455","effectiveReproductionNumber":"1.08"}
-,
-{"date":"2020-11-01","prefectureNameJ":"東京都","testedPositive":"31198","peopleTested":"607594.0","hospitalized":"1785.0","serious":"34","discharged":"28958.0","deaths":"455","effectiveReproductionNumber":"1.08"}
-,
-{"date":"2020-11-15","prefectureNameJ":"東京都","testedPositive":"34748","peopleTested":"677082.0","hospitalized":"2801.0","serious":"38","discharged":"31477.0","deaths":"470","effectiveReproductionNumber":"1.34"}
-,
-{"date":"2020-11-30","prefectureNameJ":"東京都","testedPositive":"40943","peopleTested":"770591.0","hospitalized":"4041.0","serious":"70","discharged":"36413.0","deaths":"489","effectiveReproductionNumber":"0.96"}
-,
-{"date":"2020-12-01","prefectureNameJ":"東京都","testedPositive":"41313","peopleTested":"778933.0","hospitalized":"3939.0","serious":"62","discharged":"36880.0","deaths":"494","effectiveReproductionNumber":"1.03"}
-,
-{"date":"2020-12-15","prefectureNameJ":"東京都","testedPositive":"48007","peopleTested":"880677.0","hospitalized":"4839.0","serious":"78","discharged":"42621.0","deaths":"547","effectiveReproductionNumber":"1.13"}
-,
-{"date":"2020-12-31","prefectureNameJ":"東京都","testedPositive":"60312","peopleTested":"1011778.0","hospitalized":"9320.0","serious":"89","discharged":"50365.0","deaths":"627","effectiveReproductionNumber":"1.25"}
-,
-{"date":"2021-01-01","prefectureNameJ":"東京都","testedPositive":"61105","peopleTested":"1016600.0","hospitalized":"9613.0","serious":"88","discharged":"50861.0","deaths":"631","effectiveReproductionNumber":"1.19"}
-,
-{"date":"2021-01-15","prefectureNameJ":"東京都","testedPositive":"82794","peopleTested":"1175067.0","hospitalized":"20522.0","serious":"133","discharged":"61555.0","deaths":"717","effectiveReproductionNumber":"1.05"}
-,
-{"date":"2021-01-31","prefectureNameJ":"東京都","testedPositive":"100679","peopleTested":"1329844.0","hospitalized":"14095.0","serious":"140","discharged":"85698.0","deaths":"886","effectiveReproductionNumber":"0.78"}
-,
-{"date":"2021-02-01","prefectureNameJ":"東京都","testedPositive":"101072","peopleTested":"1339576.0","hospitalized":"12557.0","serious":"133","discharged":"87621.0","deaths":"894","effectiveReproductionNumber":"0.8"}
-,
-{"date":"2021-02-15","prefectureNameJ":"東京都","testedPositive":"107609","peopleTested":"1453927.0","hospitalized":"5592.0","serious":"97","discharged":"100880.0","deaths":"1137","effectiveReproductionNumber":"0.76"}
-,
-{"date":"2021-02-28","prefectureNameJ":"東京都","testedPositive":"111676","peopleTested":"1545036.0","hospitalized":"3374.0","serious":"67","discharged":"106926.0","deaths":"1376","effectiveReproductionNumber":"0.86"}
-,
-{"date":"2021-03-01","prefectureNameJ":"東京都","testedPositive":"111797","peopleTested":"1553186.0","hospitalized":"3091.0","serious":"61","discharged":"107311.0","deaths":"1395","effectiveReproductionNumber":"0.87"}
-,
-{"date":"2021-03-15","prefectureNameJ":"東京都","testedPositive":"115584","peopleTested":"1654231.0","hospitalized":"2628.0","serious":"42","discharged":"111367.0","deaths":"1589","effectiveReproductionNumber":"1.09"}
-,
-{"date":"2021-03-31","prefectureNameJ":"東京都","testedPositive":"120986","peopleTested":"1775585.0","hospitalized":"3204.0","serious":"45","discharged":"116012.0","deaths":"1770","effectiveReproductionNumber":"1.12"}
-,
-{"date":"2021-04-01","prefectureNameJ":"東京都","testedPositive":"121461","peopleTested":"1783941.0","hospitalized":"3430.0","serious":"44","discharged":"116257.0","deaths":"1774","effectiveReproductionNumber":"1.11"}
-,
-{"date":"2021-04-15","prefectureNameJ":"東京都","testedPositive":"128114","peopleTested":"1898531.0","hospitalized":"4410.0","serious":"37","discharged":"121876.0","deaths":"1828","effectiveReproductionNumber":"1.16"}
-,
-{"date":"2021-04-30","prefectureNameJ":"東京都","testedPositive":"139076","peopleTested":"2032838.0","hospitalized":"6555.0","serious":"65","discharged":"130630.0","deaths":"1891","effectiveReproductionNumber":"1.08"}
-,
-{"date":"2021-05-01","prefectureNameJ":"東京都","testedPositive":"140126","peopleTested":"2042004.0","hospitalized":"6836.0","serious":"63","discharged":"131393.0","deaths":"1897","effectiveReproductionNumber":"1.08"}
-,
-{"date":"2021-05-15","prefectureNameJ":"東京都","testedPositive":"151697","peopleTested":"2167460.0","hospitalized":"7436.0","serious":"85","discharged":"142310.0","deaths":"1951","effectiveReproductionNumber":"1.09"}
-,
-{"date":"2021-05-31","prefectureNameJ":"東京都","testedPositive":"160955","peopleTested":"2300080.0","hospitalized":"4826.0","serious":"75","discharged":"154074.0","deaths":"2055","effectiveReproductionNumber":"0.9"}
-,
-{"date":"2021-06-01","prefectureNameJ":"東京都","testedPositive":"161426","peopleTested":"2310220.0","hospitalized":"4774.0","serious":"70","discharged":"154590.0","deaths":"2062","effectiveReproductionNumber":"0.91"}
-,
-{"date":"2021-06-15","prefectureNameJ":"東京都","testedPositive":"166915","peopleTested":"2417469.0","hospitalized":"3287.0","serious":"45","discharged":"161457.0","deaths":"2171","effectiveReproductionNumber":"0.94"}
-,
-{"date":"2021-06-29","prefectureNameJ":"東京都","testedPositive":"173220","peopleTested":"2518672.0","hospitalized":"4148.0","serious":"43","discharged":"166841.0","deaths":"2231","effectiveReproductionNumber":"1.15"}
-,
-{"date":"2020-07-01","prefectureNameJ":"神奈川県","testedPositive":"1508","peopleTested":"35624.0","hospitalized":"86.0","serious":"8","discharged":"1326.0","deaths":"96","effectiveReproductionNumber":"2.64"}
-,
-{"date":"2020-07-15","prefectureNameJ":"神奈川県","testedPositive":"1828","peopleTested":"49189.0","hospitalized":"206.0","serious":"7","discharged":"1522.0","deaths":"98","effectiveReproductionNumber":"1.44"}
-,
-{"date":"2020-07-31","prefectureNameJ":"神奈川県","testedPositive":"2485","peopleTested":"68800.0","hospitalized":"341.0","serious":"10","discharged":"2044.0","deaths":"99","effectiveReproductionNumber":"1.07"}
-,
-{"date":"2020-08-01","prefectureNameJ":"神奈川県","testedPositive":"2543","peopleTested":"69483.0","hospitalized":"337.0","serious":"10","discharged":"2106.0","deaths":"99","effectiveReproductionNumber":"1.28"}
-,
-{"date":"2020-08-15","prefectureNameJ":"神奈川県","testedPositive":"3773","peopleTested":"89740.0","hospitalized":"593.0","serious":"22","discharged":"3076.0","deaths":"105","effectiveReproductionNumber":"0.94"}
-,
-{"date":"2020-08-31","prefectureNameJ":"神奈川県","testedPositive":"4959","peopleTested":"111972.0","hospitalized":"450.0","serious":"26","discharged":"4390.0","deaths":"122","effectiveReproductionNumber":"0.93"}
-,
-{"date":"2020-09-01","prefectureNameJ":"神奈川県","testedPositive":"5018","peopleTested":"113742.0","hospitalized":"570.0","serious":"23","discharged":"4327.0","deaths":"123","effectiveReproductionNumber":"0.97"}
-,
-{"date":"2020-09-15","prefectureNameJ":"神奈川県","testedPositive":"6009","peopleTested":"132219.0","hospitalized":"597.0","serious":"32","discharged":"5285.0","deaths":"130","effectiveReproductionNumber":"0.98"}
-,
-{"date":"2020-09-30","prefectureNameJ":"神奈川県","testedPositive":"6895","peopleTested":"153193.0","hospitalized":"494.0","serious":"20","discharged":"6266.0","deaths":"138","effectiveReproductionNumber":"1.22"}
-,
-{"date":"2020-10-01","prefectureNameJ":"神奈川県","testedPositive":"6973","peopleTested":"154955.0","hospitalized":"509.0","serious":"19","discharged":"6328.0","deaths":"138","effectiveReproductionNumber":"1.27"}
-,
-{"date":"2020-10-15","prefectureNameJ":"神奈川県","testedPositive":"7757","peopleTested":"177889.0","hospitalized":"543.0","serious":"19","discharged":"7062.0","deaths":"153","effectiveReproductionNumber":"1.14"}
-,
-{"date":"2020-10-31","prefectureNameJ":"神奈川県","testedPositive":"8710","peopleTested":"204788.0","hospitalized":"554.0","serious":"20","discharged":"7987.0","deaths":"170","effectiveReproductionNumber":"0.98"}
-,
-{"date":"2020-11-01","prefectureNameJ":"神奈川県","testedPositive":"8775","peopleTested":"205550.0","hospitalized":"554.0","serious":"20","discharged":"8052.0","deaths":"171","effectiveReproductionNumber":"0.97"}
-,
-{"date":"2020-11-15","prefectureNameJ":"神奈川県","testedPositive":"10154","peopleTested":"230644.0","hospitalized":"878.0","serious":"28","discharged":"9095.0","deaths":"182","effectiveReproductionNumber":"1.3"}
-,
-{"date":"2020-11-30","prefectureNameJ":"神奈川県","testedPositive":"12554","peopleTested":"269316.0","hospitalized":"1353.0","serious":"58","discharged":"11011.0","deaths":"195","effectiveReproductionNumber":"0.97"}
-,
-{"date":"2020-12-01","prefectureNameJ":"神奈川県","testedPositive":"12712","peopleTested":"273315.0","hospitalized":"1363.0","serious":"60","discharged":"11156.0","deaths":"197","effectiveReproductionNumber":"1.07"}
-,
-{"date":"2020-12-15","prefectureNameJ":"神奈川県","testedPositive":"15397","peopleTested":"314504.0","hospitalized":"1670.0","serious":"55","discharged":"13501.0","deaths":"226","effectiveReproductionNumber":"1.24"}
-,
-{"date":"2020-12-31","prefectureNameJ":"神奈川県","testedPositive":"21261","peopleTested":"368923.0","hospitalized":"3135.0","serious":"74","discharged":"17855.0","deaths":"273","effectiveReproductionNumber":"1.25"}
-,
-{"date":"2021-01-01","prefectureNameJ":"神奈川県","testedPositive":"21731","peopleTested":"370738.0","hospitalized":"3464.0","serious":"73","discharged":"17993.0","deaths":"276","effectiveReproductionNumber":"1.19"}
-,
-{"date":"2021-01-15","prefectureNameJ":"神奈川県","testedPositive":"31562","peopleTested":"442843.0","hospitalized":"6139.0","serious":"101","discharged":"25084.0","deaths":"340","effectiveReproductionNumber":"1.35"}
-,
-{"date":"2021-01-31","prefectureNameJ":"神奈川県","testedPositive":"40764","peopleTested":"514902.0","hospitalized":"3161.0","serious":"109","discharged":"37136.0","deaths":"467","effectiveReproductionNumber":"0.67"}
-,
-{"date":"2021-02-01","prefectureNameJ":"神奈川県","testedPositive":"40985","peopleTested":"520700.0","hospitalized":"3002.0","serious":"103","discharged":"37510.0","deaths":"473","effectiveReproductionNumber":"0.71"}
-,
-{"date":"2021-02-15","prefectureNameJ":"神奈川県","testedPositive":"43335","peopleTested":"567874.0","hospitalized":"1422.0","serious":"40","discharged":"41315.0","deaths":"598","effectiveReproductionNumber":"0.74"}
-,
-{"date":"2021-02-28","prefectureNameJ":"神奈川県","testedPositive":"44899","peopleTested":"606579.0","hospitalized":"1075.0","serious":"27","discharged":"43144.0","deaths":"680","effectiveReproductionNumber":"0.99"}
-,
-{"date":"2021-03-01","prefectureNameJ":"神奈川県","testedPositive":"44951","peopleTested":"611746.0","hospitalized":"1055.0","serious":"27","discharged":"43215.0","deaths":"681","effectiveReproductionNumber":"0.93"}
-,
-{"date":"2021-03-15","prefectureNameJ":"神奈川県","testedPositive":"46447","peopleTested":"655008.0","hospitalized":"977.0","serious":"37","discharged":"44723.0","deaths":"747","effectiveReproductionNumber":"0.94"}
-,
-{"date":"2021-03-31","prefectureNameJ":"神奈川県","testedPositive":"48071","peopleTested":"705353.0","hospitalized":"843.0","serious":"21","discharged":"46447.0","deaths":"781","effectiveReproductionNumber":"1.02"}
-,
-{"date":"2021-04-01","prefectureNameJ":"神奈川県","testedPositive":"48204","peopleTested":"708947.0","hospitalized":"917.0","serious":"22","discharged":"46502.0","deaths":"785","effectiveReproductionNumber":"1.07"}
-,
-{"date":"2021-04-15","prefectureNameJ":"神奈川県","testedPositive":"50203","peopleTested":"756874.0","hospitalized":"1289.0","serious":"26","discharged":"48114.0","deaths":"800","effectiveReproductionNumber":"1.22"}
-,
-{"date":"2021-04-30","prefectureNameJ":"神奈川県","testedPositive":"53535","peopleTested":"815989.0","hospitalized":"1919.0","serious":"37","discharged":"50800.0","deaths":"816","effectiveReproductionNumber":"1.0"}
-,
-{"date":"2021-05-01","prefectureNameJ":"神奈川県","testedPositive":"53810","peopleTested":"818574.0","hospitalized":"1961.0","serious":"43","discharged":"51031.0","deaths":"818","effectiveReproductionNumber":"1.04"}
-,
-{"date":"2021-05-15","prefectureNameJ":"神奈川県","testedPositive":"57577","peopleTested":"873867.0","hospitalized":"2451.0","serious":"48","discharged":"54272.0","deaths":"854","effectiveReproductionNumber":"1.25"}
-,
-{"date":"2021-05-31","prefectureNameJ":"神奈川県","testedPositive":"61516","peopleTested":"936214.0","hospitalized":"2005.0","serious":"79","discharged":"58629.0","deaths":"882","effectiveReproductionNumber":"0.86"}
-,
-{"date":"2021-06-01","prefectureNameJ":"神奈川県","testedPositive":"61675","peopleTested":"940650.0","hospitalized":"1882.0","serious":"74","discharged":"58909.0","deaths":"884","effectiveReproductionNumber":"0.86"}
-,
-{"date":"2021-06-15","prefectureNameJ":"神奈川県","testedPositive":"64495","peopleTested":"992595.0","hospitalized":"1691.0","serious":"43","discharged":"61880.0","deaths":"924","effectiveReproductionNumber":"0.92"}
-,
-{"date":"2021-06-29","prefectureNameJ":"神奈川県","testedPositive":"67182","peopleTested":"1033536.0","hospitalized":"1692.0","serious":"41","discharged":"64543.0","deaths":"947","effectiveReproductionNumber":"1.08"}
-,
-{"date":"2020-07-01","prefectureNameJ":"大阪府","testedPositive":"1843","peopleTested":"41257.0","hospitalized":"45.0","serious":"3","discharged":"1712.0","deaths":"86","effectiveReproductionNumber":"1.57"}
-,
-{"date":"2020-07-15","prefectureNameJ":"大阪府","testedPositive":"2126","peopleTested":"49518.0","hospitalized":"153.0","serious":"5","discharged":"1830.0","deaths":"86","effectiveReproductionNumber":"2.16"}
-,
-{"date":"2020-07-31","prefectureNameJ":"大阪府","testedPositive":"4057","peopleTested":"72644.0","hospitalized":"1262.0","serious":"19","discharged":"2702.0","deaths":"90","effectiveReproductionNumber":"1.46"}
-,
-{"date":"2020-08-01","prefectureNameJ":"大阪府","testedPositive":"4252","peopleTested":"74937.0","hospitalized":"1339.0","serious":"20","discharged":"2820.0","deaths":"90","effectiveReproductionNumber":"1.45"}
-,
-{"date":"2020-08-15","prefectureNameJ":"大阪府","testedPositive":"6698","peopleTested":"103339.0","hospitalized":"1695.0","serious":"70","discharged":"4892.0","deaths":"106","effectiveReproductionNumber":"0.89"}
-,
-{"date":"2020-08-31","prefectureNameJ":"大阪府","testedPositive":"8544","peopleTested":"133964.0","hospitalized":"1205.0","serious":"60","discharged":"7181.0","deaths":"152","effectiveReproductionNumber":"0.74"}
-,
-{"date":"2020-09-01","prefectureNameJ":"大阪府","testedPositive":"8656","peopleTested":"136319.0","hospitalized":"1228.0","serious":"61","discharged":"7266.0","deaths":"155","effectiveReproductionNumber":"0.77"}
-,
-{"date":"2020-09-15","prefectureNameJ":"大阪府","testedPositive":"9725","peopleTested":"161815.0","hospitalized":"830.0","serious":"35","discharged":"8700.0","deaths":"186","effectiveReproductionNumber":"1.06"}
-,
-{"date":"2020-09-30","prefectureNameJ":"大阪府","testedPositive":"10593","peopleTested":"184618.0","hospitalized":"526.0","serious":"27","discharged":"9853.0","deaths":"206","effectiveReproductionNumber":"0.97"}
-,
-{"date":"2020-10-01","prefectureNameJ":"大阪府","testedPositive":"10669","peopleTested":"186447.0","hospitalized":"513.0","serious":"24","discharged":"9939.0","deaths":"209","effectiveReproductionNumber":"0.98"}
-,
-{"date":"2020-10-15","prefectureNameJ":"大阪府","testedPositive":"11361","peopleTested":"208200.0","hospitalized":"450.0","serious":"21","discharged":"10671.0","deaths":"224","effectiveReproductionNumber":"1.07"}
-,
-{"date":"2020-10-31","prefectureNameJ":"大阪府","testedPositive":"12753","peopleTested":"236596.0","hospitalized":"906.0","serious":"25","discharged":"11586.0","deaths":"242","effectiveReproductionNumber":"1.35"}
-,
-{"date":"2020-11-01","prefectureNameJ":"大阪府","testedPositive":"12876","peopleTested":"237906.0","hospitalized":"977.0","serious":"26","discharged":"11636.0","deaths":"244","effectiveReproductionNumber":"1.37"}
-,
-{"date":"2020-11-15","prefectureNameJ":"大阪府","testedPositive":"15421","peopleTested":"270830.0","hospitalized":"1961.0","serious":"66","discharged":"13180.0","deaths":"261","effectiveReproductionNumber":"1.47"}
-,
-{"date":"2020-11-30","prefectureNameJ":"大阪府","testedPositive":"20273","peopleTested":"323549.0","hospitalized":"4119.0","serious":"124","discharged":"15815.0","deaths":"320","effectiveReproductionNumber":"0.97"}
-,
-{"date":"2020-12-01","prefectureNameJ":"大阪府","testedPositive":"20591","peopleTested":"328225.0","hospitalized":"4173.0","serious":"125","discharged":"16073.0","deaths":"326","effectiveReproductionNumber":"1.02"}
-,
-{"date":"2020-12-15","prefectureNameJ":"大阪府","testedPositive":"25420","peopleTested":"388356.0","hospitalized":"4233.0","serious":"158","discharged":"20740.0","deaths":"431","effectiveReproductionNumber":"1.01"}
-,
-{"date":"2020-12-31","prefectureNameJ":"大阪府","testedPositive":"29999","peopleTested":"466416.0","hospitalized":"3554.0","serious":"164","discharged":"25866.0","deaths":"579","effectiveReproductionNumber":"0.99"}
-,
-{"date":"2021-01-01","prefectureNameJ":"大阪府","testedPositive":"30261","peopleTested":"468720.0","hospitalized":"3671.0","serious":"165","discharged":"26002.0","deaths":"588","effectiveReproductionNumber":"0.98"}
-,
-{"date":"2021-01-15","prefectureNameJ":"大阪府","testedPositive":"37002","peopleTested":"549772.0","hospitalized":"6417.0","serious":"187","discharged":"29859.0","deaths":"726","effectiveReproductionNumber":"1.16"}
-,
-{"date":"2021-01-31","prefectureNameJ":"大阪府","testedPositive":"43722","peopleTested":"649983.0","hospitalized":"4927.0","serious":"185","discharged":"37869.0","deaths":"926","effectiveReproductionNumber":"0.76"}
-,
-{"date":"2021-02-01","prefectureNameJ":"大阪府","testedPositive":"43900","peopleTested":"654585.0","hospitalized":"4783.0","serious":"179","discharged":"38187.0","deaths":"930","effectiveReproductionNumber":"0.76"}
-,
-{"date":"2021-02-15","prefectureNameJ":"大阪府","testedPositive":"46016","peopleTested":"725167.0","hospitalized":"1876.0","serious":"142","discharged":"42638.0","deaths":"1058","effectiveReproductionNumber":"0.72"}
-,
-{"date":"2021-02-28","prefectureNameJ":"大阪府","testedPositive":"47123","peopleTested":"787744.0","hospitalized":"1051.0","serious":"90","discharged":"44543.0","deaths":"1117","effectiveReproductionNumber":"0.89"}
-,
-{"date":"2021-03-01","prefectureNameJ":"大阪府","testedPositive":"47179","peopleTested":"792868.0","hospitalized":"1072.0","serious":"87","discharged":"44575.0","deaths":"1119","effectiveReproductionNumber":"0.82"}
-,
-{"date":"2021-03-15","prefectureNameJ":"大阪府","testedPositive":"48373","peopleTested":"895125.0","hospitalized":"1031.0","serious":"60","discharged":"45774.0","deaths":"1156","effectiveReproductionNumber":"1.18"}
-,
-{"date":"2021-03-31","prefectureNameJ":"大阪府","testedPositive":"52201","peopleTested":"1046556.0","hospitalized":"3178.0","serious":"92","discharged":"47421.0","deaths":"1184","effectiveReproductionNumber":"1.84"}
-,
-{"date":"2021-04-01","prefectureNameJ":"大阪府","testedPositive":"52817","peopleTested":"1061196.0","hospitalized":"3630.0","serious":"96","discharged":"47587.0","deaths":"1184","effectiveReproductionNumber":"1.86"}
-,
-{"date":"2021-04-15","prefectureNameJ":"大阪府","testedPositive":"64382","peopleTested":"1198468.0","hospitalized":"10940.0","serious":"261","discharged":"51638.0","deaths":"1238","effectiveReproductionNumber":"1.31"}
-,
-{"date":"2021-04-30","prefectureNameJ":"大阪府","testedPositive":"81185","peopleTested":"1421890.0","hospitalized":"19118.0","serious":"412","discharged":"59867.0","deaths":"1456","effectiveReproductionNumber":"1.0"}
-,
-{"date":"2021-05-01","prefectureNameJ":"大阪府","testedPositive":"82447","peopleTested":"1436589.0","hospitalized":"19705.0","serious":"415","discharged":"60483.0","deaths":"1497","effectiveReproductionNumber":"1.02"}
-,
-{"date":"2021-05-15","prefectureNameJ":"大阪府","testedPositive":"94155","peopleTested":"1628077.0","hospitalized":"19678.0","serious":"380","discharged":"71619.0","deaths":"1943","effectiveReproductionNumber":"0.91"}
-,
-{"date":"2021-05-31","prefectureNameJ":"大阪府","testedPositive":"99719","peopleTested":"1829137.0","hospitalized":"8609.0","serious":"367","discharged":"87865.0","deaths":"2315","effectiveReproductionNumber":"0.72"}
-,
-{"date":"2021-06-01","prefectureNameJ":"大阪府","testedPositive":"99920","peopleTested":"1835005.0","hospitalized":"8411.0","serious":"339","discharged":"88261.0","deaths":"2336","effectiveReproductionNumber":"0.72"}
-,
-{"date":"2021-06-15","prefectureNameJ":"大阪府","testedPositive":"101941","peopleTested":"1982866.0","hospitalized":"4066.0","serious":"198","discharged":"94486.0","deaths":"2544","effectiveReproductionNumber":"0.76"}
-,
-{"date":"2021-06-29","prefectureNameJ":"大阪府","testedPositive":"103275","peopleTested":"2138304.0","hospitalized":"1293.0","serious":"149","discharged":"98507.0","deaths":"2668","effectiveReproductionNumber":"1.04"}
-,
-{"date":"2020-07-01","prefectureNameJ":"沖縄県","testedPositive":"142","peopleTested":"3023.0","hospitalized":"0.0","serious":"0","discharged":"139.0","deaths":"7","effectiveReproductionNumber":""}
-,
-{"date":"2020-07-15","prefectureNameJ":"沖縄県","testedPositive":"148","peopleTested":"3381.0","hospitalized":"4.0","serious":"0","discharged":"141.0","deaths":"7","effectiveReproductionNumber":"1.64"}
-,
-{"date":"2020-07-31","prefectureNameJ":"沖縄県","testedPositive":"395","peopleTested":"8033.0","hospitalized":"244.0","serious":"3","discharged":"148.0","deaths":"7","effectiveReproductionNumber":"5.07"}
-,
-{"date":"2020-08-01","prefectureNameJ":"沖縄県","testedPositive":"453","peopleTested":"8338.0","hospitalized":"302.0","serious":"3","discharged":"148.0","deaths":"7","effectiveReproductionNumber":"4.1"}
-,
-{"date":"2020-08-15","prefectureNameJ":"沖縄県","testedPositive":"1558","peopleTested":"16561.0","hospitalized":"1123.0","serious":"17","discharged":"428.0","deaths":"11","effectiveReproductionNumber":"1.1"}
-,
-{"date":"2020-08-31","prefectureNameJ":"沖縄県","testedPositive":"2139","peopleTested":"25614.0","hospitalized":"430.0","serious":"11","discharged":"1685.0","deaths":"28","effectiveReproductionNumber":"0.92"}
-,
-{"date":"2020-09-01","prefectureNameJ":"沖縄県","testedPositive":"2139","peopleTested":"25614.0","hospitalized":"430.0","serious":"11","discharged":"1685.0","deaths":"28","effectiveReproductionNumber":"0.76"}
-,
-{"date":"2020-09-15","prefectureNameJ":"沖縄県","testedPositive":"2297","peopleTested":"33812.0","hospitalized":"182.0","serious":"8","discharged":"2074.0","deaths":"45","effectiveReproductionNumber":"0.69"}
-,
-{"date":"2020-09-30","prefectureNameJ":"沖縄県","testedPositive":"2486","peopleTested":"39038.0","hospitalized":"193.0","serious":"5","discharged":"2251.0","deaths":"46","effectiveReproductionNumber":"1.37"}
-,
-{"date":"2020-10-01","prefectureNameJ":"沖縄県","testedPositive":"2516","peopleTested":"39290.0","hospitalized":"204.0","serious":"9","discharged":"2270.0","deaths":"46","effectiveReproductionNumber":"1.56"}
-,
-{"date":"2020-10-15","prefectureNameJ":"沖縄県","testedPositive":"2826","peopleTested":"45857.0","hospitalized":"260.0","serious":"9","discharged":"2519.0","deaths":"51","effectiveReproductionNumber":"0.9"}
-,
-{"date":"2020-10-31","prefectureNameJ":"沖縄県","testedPositive":"3336","peopleTested":"57775.0","hospitalized":"344.0","serious":"7","discharged":"2934.0","deaths":"63","effectiveReproductionNumber":"0.79"}
-,
-{"date":"2020-11-01","prefectureNameJ":"沖縄県","testedPositive":"3363","peopleTested":"58299.0","hospitalized":"341.0","serious":"7","discharged":"2964.0","deaths":"63","effectiveReproductionNumber":"0.85"}
-,
-{"date":"2020-11-15","prefectureNameJ":"沖縄県","testedPositive":"3741","peopleTested":"65248.0","hospitalized":"311.0","serious":"3","discharged":"3369.0","deaths":"66","effectiveReproductionNumber":"1.3"}
-,
-{"date":"2020-11-30","prefectureNameJ":"沖縄県","testedPositive":"4326","peopleTested":"72779.0","hospitalized":"403.0","serious":"5","discharged":"3859.0","deaths":"69","effectiveReproductionNumber":"1.18"}
-,
-{"date":"2020-12-01","prefectureNameJ":"沖縄県","testedPositive":"4353","peopleTested":"73253.0","hospitalized":"404.0","serious":"5","discharged":"3885.0","deaths":"69","effectiveReproductionNumber":"1.24"}
-,
-{"date":"2020-12-15","prefectureNameJ":"沖縄県","testedPositive":"4824","peopleTested":"80078.0","hospitalized":"366.0","serious":"7","discharged":"4386.0","deaths":"77","effectiveReproductionNumber":"0.86"}
-,
-{"date":"2020-12-31","prefectureNameJ":"沖縄県","testedPositive":"5365","peopleTested":"89846.0","hospitalized":"387.0","serious":"7","discharged":"4902.0","deaths":"81","effectiveReproductionNumber":"1.25"}
-,
-{"date":"2021-01-01","prefectureNameJ":"沖縄県","testedPositive":"5413","peopleTested":"90097.0","hospitalized":"398.0","serious":"7","discharged":"4939.0","deaths":"81","effectiveReproductionNumber":"1.24"}
-,
-{"date":"2021-01-15","prefectureNameJ":"沖縄県","testedPositive":"6181","peopleTested":"98894.0","hospitalized":"579.0","serious":"7","discharged":"5521.0","deaths":"86","effectiveReproductionNumber":"1.15"}
-,
-{"date":"2021-01-31","prefectureNameJ":"沖縄県","testedPositive":"7550","peopleTested":"125312.0","hospitalized":"774.0","serious":"9","discharged":"6691.0","deaths":"90","effectiveReproductionNumber":"0.91"}
-,
-{"date":"2021-02-01","prefectureNameJ":"沖縄県","testedPositive":"7585","peopleTested":"126082.0","hospitalized":"759.0","serious":"7","discharged":"6741.0","deaths":"90","effectiveReproductionNumber":"0.93"}
-,
-{"date":"2021-02-15","prefectureNameJ":"沖縄県","testedPositive":"7995","peopleTested":"137656.0","hospitalized":"360.0","serious":"2","discharged":"7538.0","deaths":"102","effectiveReproductionNumber":"0.5"}
-,
-{"date":"2021-02-28","prefectureNameJ":"沖縄県","testedPositive":"8193","peopleTested":"144904.0","hospitalized":"267.0","serious":"1","discharged":"7812.0","deaths":"119","effectiveReproductionNumber":"1.13"}
-,
-{"date":"2021-03-1","prefectureNameJ":"沖縄県","testedPositive":"8200","peopleTested":"145625.0","hospitalized":"269.0","serious":"1","discharged":"7817.0","deaths":"119","effectiveReproductionNumber":"1.06"}
-,
-{"date":"2021-03-15","prefectureNameJ":"沖縄県","testedPositive":"8512","peopleTested":"153212.0","hospitalized":"296.0","serious":"2","discharged":"8100.0","deaths":"122","effectiveReproductionNumber":"1.26"}
-,
-{"date":"2021-03-31","prefectureNameJ":"沖縄県","testedPositive":"9482","peopleTested":"164199.0","hospitalized":"697.0","serious":"4","discharged":"8663.0","deaths":"128","effectiveReproductionNumber":"1.46"}
-,
-{"date":"2021-04-01","prefectureNameJ":"沖縄県","testedPositive":"9575","peopleTested":"164199.0","hospitalized":"719.0","serious":"4","discharged":"8734.0","deaths":"128","effectiveReproductionNumber":"1.39"}
-,
-{"date":"2021-04-15","prefectureNameJ":"沖縄県","testedPositive":"11137","peopleTested":"176389.0","hospitalized":"1227.0","serious":"11","discharged":"9786.0","deaths":"130","effectiveReproductionNumber":"1.35"}
-,
-{"date":"2021-04-30","prefectureNameJ":"沖縄県","testedPositive":"12463","peopleTested":"191141.0","hospitalized":"1119.0","serious":"10","discharged":"11214.0","deaths":"136","effectiveReproductionNumber":"0.79"}
-,
-{"date":"2021-05-01","prefectureNameJ":"沖縄県","testedPositive":"12568","peopleTested":"191970.0","hospitalized":"1153.0","serious":"9","discharged":"11284.0","deaths":"137","effectiveReproductionNumber":"0.81"}
-,
-{"date":"2021-05-15","prefectureNameJ":"沖縄県","testedPositive":"13781","peopleTested":"202299.0","hospitalized":"1447.0","serious":"12","discharged":"12199.0","deaths":"141","effectiveReproductionNumber":"1.56"}
-,
-{"date":"2021-05-31","prefectureNameJ":"沖縄県","testedPositive":"17044","peopleTested":"219572.0","hospitalized":"2569.0","serious":"82","discharged":"14331.0","deaths":"150","effectiveReproductionNumber":"1.32"}
-,
-{"date":"2021-06-01","prefectureNameJ":"沖縄県","testedPositive":"17267","peopleTested":"220905.0","hospitalized":"2674.0","serious":"88","discharged":"14448.0","deaths":"151","effectiveReproductionNumber":"1.24"}
-,
-{"date":"2021-06-15","prefectureNameJ":"沖縄県","testedPositive":"19669","peopleTested":"237686.0","hospitalized":"1974.0","serious":"75","discharged":"17538.0","deaths":"163","effectiveReproductionNumber":"0.7"}
-,
-{"date":"2021-06-29","prefectureNameJ":"沖縄県","testedPositive":"20716","peopleTested":"249853.0","hospitalized":"1115.0","serious":"58","discharged":"19426.0","deaths":"181","effectiveReproductionNumber":"0.9"}
-
+  {
+    "date": "2020-07-01",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "1267",
+    "peopleTested": "21190.0",
+    "hospitalized": "103.0",
+    "serious": "5",
+    "discharged": "1072.0",
+    "deaths": "100",
+    "effectiveReproductionNumber": "1.75"
+  },
+  {
+    "date": "2020-07-15",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "1317",
+    "peopleTested": "24041.0",
+    "hospitalized": "66.0",
+    "serious": "5",
+    "discharged": "1139.0",
+    "deaths": "102",
+    "effectiveReproductionNumber": "1.83"
+  },
+  {
+    "date": "2020-08-01",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "1446",
+    "peopleTested": "29610.0",
+    "hospitalized": "82.0",
+    "serious": "3",
+    "discharged": "1247.0",
+    "deaths": "103",
+    "effectiveReproductionNumber": "1.19"
+  },
+  {
+    "date": "2020-08-15",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "1619",
+    "peopleTested": "36031.0",
+    "hospitalized": "134.0",
+    "serious": "3",
+    "discharged": "1379.0",
+    "deaths": "103",
+    "effectiveReproductionNumber": "0.87"
+  },
+  {
+    "date": "2020-09-01",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "1797",
+    "peopleTested": "44770.0",
+    "hospitalized": "120.0",
+    "serious": "2",
+    "discharged": "1567.0",
+    "deaths": "103",
+    "effectiveReproductionNumber": "0.84"
+  },
+  {
+    "date": "2020-09-15",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "1892",
+    "peopleTested": "50527.0",
+    "hospitalized": "61.0",
+    "serious": "2",
+    "discharged": "1724.0",
+    "deaths": "106",
+    "effectiveReproductionNumber": "0.99"
+  },
+  {
+    "date": "2020-10-01",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "2126",
+    "peopleTested": "58133.0",
+    "hospitalized": "138.0",
+    "serious": "0",
+    "discharged": "1881.0",
+    "deaths": "107",
+    "effectiveReproductionNumber": "1.16"
+  },
+  {
+    "date": "2020-10-15",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "2460",
+    "peopleTested": "68209.0",
+    "hospitalized": "194.0",
+    "serious": "1",
+    "discharged": "2166.0",
+    "deaths": "107",
+    "effectiveReproductionNumber": "0.97"
+  },
+  {
+    "date": "2020-11-01",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "3205",
+    "peopleTested": "83712.0",
+    "hospitalized": "446.0",
+    "serious": "6",
+    "discharged": "2603.0",
+    "deaths": "110",
+    "effectiveReproductionNumber": "1.36"
+  },
+  {
+    "date": "2020-11-15",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "5494",
+    "peopleTested": "108980.0",
+    "hospitalized": "1719.0",
+    "serious": "18",
+    "discharged": "3525.0",
+    "deaths": "127",
+    "effectiveReproductionNumber": "1.52"
+  },
+  {
+    "date": "2020-12-01",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "9075",
+    "peopleTested": "154998.0",
+    "hospitalized": "2281.0",
+    "serious": "28",
+    "discharged": "6588.0",
+    "deaths": "208",
+    "effectiveReproductionNumber": "0.91"
+  },
+  {
+    "date": "2020-12-15",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "11564",
+    "peopleTested": "196775.0",
+    "hospitalized": "2243.0",
+    "serious": "34",
+    "discharged": "9040.0",
+    "deaths": "341",
+    "effectiveReproductionNumber": "0.95"
+  },
+  {
+    "date": "2021-01-01",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "13540",
+    "peopleTested": "240878.0",
+    "hospitalized": "1680.0",
+    "serious": "19",
+    "discharged": "11418.0",
+    "deaths": "456",
+    "effectiveReproductionNumber": "1.04"
+  },
+  {
+    "date": "2021-01-15",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "15502",
+    "peopleTested": "274167.0",
+    "hospitalized": "1578.0",
+    "serious": "10",
+    "discharged": "13344.0",
+    "deaths": "527",
+    "effectiveReproductionNumber": "1.36"
+  },
+  {
+    "date": "2021-02-01",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "17521",
+    "peopleTested": "321207.0",
+    "hospitalized": "1364.0",
+    "serious": "12",
+    "discharged": "15579.0",
+    "deaths": "607",
+    "effectiveReproductionNumber": "0.95"
+  },
+  {
+    "date": "2021-02-15",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "18534",
+    "peopleTested": "352699.0",
+    "hospitalized": "832.0",
+    "serious": "13",
+    "discharged": "17069.0",
+    "deaths": "640",
+    "effectiveReproductionNumber": "0.75"
+  },
+  {
+    "date": "2021-03-01",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "19122",
+    "peopleTested": "382054.0",
+    "hospitalized": "549.0",
+    "serious": "3",
+    "discharged": "17900.0",
+    "deaths": "679",
+    "effectiveReproductionNumber": "0.97"
+  },
+  {
+    "date": "2021-03-15",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "19944",
+    "peopleTested": "412087.0",
+    "hospitalized": "703.0",
+    "serious": "3",
+    "discharged": "18534.0",
+    "deaths": "709",
+    "effectiveReproductionNumber": "0.99"
+  },
+  {
+    "date": "2021-04-01",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "21051",
+    "peopleTested": "451342.0",
+    "hospitalized": "802.0",
+    "serious": "17",
+    "discharged": "19539.0",
+    "deaths": "752",
+    "effectiveReproductionNumber": "1.02"
+  },
+  {
+    "date": "2021-04-15",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "22076",
+    "peopleTested": "482910.0",
+    "hospitalized": "845.0",
+    "serious": "22",
+    "discharged": "20409.0",
+    "deaths": "790",
+    "effectiveReproductionNumber": "1.15"
+  },
+  {
+    "date": "2021-05-01",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "24350",
+    "peopleTested": "531696.0",
+    "hospitalized": "1742.0",
+    "serious": "23",
+    "discharged": "21726.0",
+    "deaths": "861",
+    "effectiveReproductionNumber": "1.24"
+  },
+  {
+    "date": "2021-05-15",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "29911",
+    "peopleTested": "591839.0",
+    "hospitalized": "4765.0",
+    "serious": "31",
+    "discharged": "23890.0",
+    "deaths": "929",
+    "effectiveReproductionNumber": "1.67"
+  },
+  {
+    "date": "2021-06-01",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "38213",
+    "peopleTested": "685540.0",
+    "hospitalized": "7828.0",
+    "serious": "56",
+    "discharged": "29778.0",
+    "deaths": "1128",
+    "effectiveReproductionNumber": "0.76"
+  },
+  {
+    "date": "2021-06-15",
+    "prefectureNameJ": "北海道",
+    "testedPositive": "40633",
+    "peopleTested": "738158.0",
+    "hospitalized": "3481.0",
+    "serious": "32",
+    "discharged": "35988.0",
+    "deaths": "1319",
+    "effectiveReproductionNumber": "0.67"
+  },
+  {
+    "date": "2020-07-01",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "6292",
+    "peopleTested": "92069.0",
+    "hospitalized": "493.0",
+    "serious": "10",
+    "discharged": "5474.0",
+    "deaths": "325",
+    "effectiveReproductionNumber": "1.34"
+  },
+  {
+    "date": "2020-07-15",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "8353",
+    "peopleTested": "133338.0",
+    "hospitalized": "1419.0",
+    "serious": "8",
+    "discharged": "6608.0",
+    "deaths": "326",
+    "effectiveReproductionNumber": "1.48"
+  },
+  {
+    "date": "2020-08-15",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "17451",
+    "peopleTested": "263555.0",
+    "hospitalized": "3517.0",
+    "serious": "23",
+    "discharged": "13596.0",
+    "deaths": "338",
+    "effectiveReproductionNumber": "0.86"
+  },
+  {
+    "date": "2020-09-01",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "20984",
+    "peopleTested": "337935.0",
+    "hospitalized": "2562.0",
+    "serious": "29",
+    "discharged": "18058.0",
+    "deaths": "364",
+    "effectiveReproductionNumber": "0.93"
+  },
+  {
+    "date": "2020-09-15",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "23270",
+    "peopleTested": "402463.0",
+    "hospitalized": "2281.0",
+    "serious": "21",
+    "discharged": "20603.0",
+    "deaths": "386",
+    "effectiveReproductionNumber": "1.15"
+  },
+  {
+    "date": "2020-10-01",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "25966",
+    "peopleTested": "471203.0",
+    "hospitalized": "2127.0",
+    "serious": "22",
+    "discharged": "23430.0",
+    "deaths": "409",
+    "effectiveReproductionNumber": "1.19"
+  },
+  {
+    "date": "2020-10-15",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "28405",
+    "peopleTested": "536616.0",
+    "hospitalized": "1887.0",
+    "serious": "25",
+    "discharged": "26091.0",
+    "deaths": "427",
+    "effectiveReproductionNumber": "1.1"
+  },
+  {
+    "date": "2020-11-01",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "31198",
+    "peopleTested": "607594.0",
+    "hospitalized": "1785.0",
+    "serious": "34",
+    "discharged": "28958.0",
+    "deaths": "455",
+    "effectiveReproductionNumber": "1.08"
+  },
+  {
+    "date": "2020-11-15",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "34748",
+    "peopleTested": "677082.0",
+    "hospitalized": "2801.0",
+    "serious": "38",
+    "discharged": "31477.0",
+    "deaths": "470",
+    "effectiveReproductionNumber": "1.34"
+  },
+  {
+    "date": "2020-12-01",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "41313",
+    "peopleTested": "778933.0",
+    "hospitalized": "3939.0",
+    "serious": "62",
+    "discharged": "36880.0",
+    "deaths": "494",
+    "effectiveReproductionNumber": "1.03"
+  },
+  {
+    "date": "2020-12-15",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "48007",
+    "peopleTested": "880677.0",
+    "hospitalized": "4839.0",
+    "serious": "78",
+    "discharged": "42621.0",
+    "deaths": "547",
+    "effectiveReproductionNumber": "1.13"
+  },
+  {
+    "date": "2021-01-01",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "61105",
+    "peopleTested": "1016600.0",
+    "hospitalized": "9613.0",
+    "serious": "88",
+    "discharged": "50861.0",
+    "deaths": "631",
+    "effectiveReproductionNumber": "1.19"
+  },
+  {
+    "date": "2021-01-15",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "82794",
+    "peopleTested": "1175067.0",
+    "hospitalized": "20522.0",
+    "serious": "133",
+    "discharged": "61555.0",
+    "deaths": "717",
+    "effectiveReproductionNumber": "1.05"
+  },
+  {
+    "date": "2021-02-01",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "101072",
+    "peopleTested": "1339576.0",
+    "hospitalized": "12557.0",
+    "serious": "133",
+    "discharged": "87621.0",
+    "deaths": "894",
+    "effectiveReproductionNumber": "0.8"
+  },
+  {
+    "date": "2021-02-15",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "107609",
+    "peopleTested": "1453927.0",
+    "hospitalized": "5592.0",
+    "serious": "97",
+    "discharged": "100880.0",
+    "deaths": "1137",
+    "effectiveReproductionNumber": "0.76"
+  },
+  {
+    "date": "2021-03-01",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "111797",
+    "peopleTested": "1553186.0",
+    "hospitalized": "3091.0",
+    "serious": "61",
+    "discharged": "107311.0",
+    "deaths": "1395",
+    "effectiveReproductionNumber": "0.87"
+  },
+  {
+    "date": "2021-03-15",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "115584",
+    "peopleTested": "1654231.0",
+    "hospitalized": "2628.0",
+    "serious": "42",
+    "discharged": "111367.0",
+    "deaths": "1589",
+    "effectiveReproductionNumber": "1.09"
+  },
+  {
+    "date": "2021-04-01",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "121461",
+    "peopleTested": "1783941.0",
+    "hospitalized": "3430.0",
+    "serious": "44",
+    "discharged": "116257.0",
+    "deaths": "1774",
+    "effectiveReproductionNumber": "1.11"
+  },
+  {
+    "date": "2021-04-15",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "128114",
+    "peopleTested": "1898531.0",
+    "hospitalized": "4410.0",
+    "serious": "37",
+    "discharged": "121876.0",
+    "deaths": "1828",
+    "effectiveReproductionNumber": "1.16"
+  },
+  {
+    "date": "2021-05-01",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "140126",
+    "peopleTested": "2042004.0",
+    "hospitalized": "6836.0",
+    "serious": "63",
+    "discharged": "131393.0",
+    "deaths": "1897",
+    "effectiveReproductionNumber": "1.08"
+  },
+  {
+    "date": "2021-05-15",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "151697",
+    "peopleTested": "2167460.0",
+    "hospitalized": "7436.0",
+    "serious": "85",
+    "discharged": "142310.0",
+    "deaths": "1951",
+    "effectiveReproductionNumber": "1.09"
+  },
+  {
+    "date": "2021-06-01",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "161426",
+    "peopleTested": "2310220.0",
+    "hospitalized": "4774.0",
+    "serious": "70",
+    "discharged": "154590.0",
+    "deaths": "2062",
+    "effectiveReproductionNumber": "0.91"
+  },
+  {
+    "date": "2021-06-15",
+    "prefectureNameJ": "東京都",
+    "testedPositive": "166915",
+    "peopleTested": "2417469.0",
+    "hospitalized": "3287.0",
+    "serious": "45",
+    "discharged": "161457.0",
+    "deaths": "2171",
+    "effectiveReproductionNumber": "0.94"
+  },
+  {
+    "date": "2020-07-01",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "1508",
+    "peopleTested": "35624.0",
+    "hospitalized": "86.0",
+    "serious": "8",
+    "discharged": "1326.0",
+    "deaths": "96",
+    "effectiveReproductionNumber": "2.64"
+  },
+  {
+    "date": "2020-07-15",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "1828",
+    "peopleTested": "49189.0",
+    "hospitalized": "206.0",
+    "serious": "7",
+    "discharged": "1522.0",
+    "deaths": "98",
+    "effectiveReproductionNumber": "1.44"
+  },
+  {
+    "date": "2020-08-01",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "2543",
+    "peopleTested": "69483.0",
+    "hospitalized": "337.0",
+    "serious": "10",
+    "discharged": "2106.0",
+    "deaths": "99",
+    "effectiveReproductionNumber": "1.28"
+  },
+  {
+    "date": "2020-08-15",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "3773",
+    "peopleTested": "89740.0",
+    "hospitalized": "593.0",
+    "serious": "22",
+    "discharged": "3076.0",
+    "deaths": "105",
+    "effectiveReproductionNumber": "0.94"
+  },
+  {
+    "date": "2020-09-01",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "5018",
+    "peopleTested": "113742.0",
+    "hospitalized": "570.0",
+    "serious": "23",
+    "discharged": "4327.0",
+    "deaths": "123",
+    "effectiveReproductionNumber": "0.97"
+  },
+  {
+    "date": "2020-09-15",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "6009",
+    "peopleTested": "132219.0",
+    "hospitalized": "597.0",
+    "serious": "32",
+    "discharged": "5285.0",
+    "deaths": "130",
+    "effectiveReproductionNumber": "0.98"
+  },
+  {
+    "date": "2020-10-01",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "6973",
+    "peopleTested": "154955.0",
+    "hospitalized": "509.0",
+    "serious": "19",
+    "discharged": "6328.0",
+    "deaths": "138",
+    "effectiveReproductionNumber": "1.27"
+  },
+  {
+    "date": "2020-10-15",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "7757",
+    "peopleTested": "177889.0",
+    "hospitalized": "543.0",
+    "serious": "19",
+    "discharged": "7062.0",
+    "deaths": "153",
+    "effectiveReproductionNumber": "1.14"
+  },
+  {
+    "date": "2020-11-01",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "8775",
+    "peopleTested": "205550.0",
+    "hospitalized": "554.0",
+    "serious": "20",
+    "discharged": "8052.0",
+    "deaths": "171",
+    "effectiveReproductionNumber": "0.97"
+  },
+  {
+    "date": "2020-11-15",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "10154",
+    "peopleTested": "230644.0",
+    "hospitalized": "878.0",
+    "serious": "28",
+    "discharged": "9095.0",
+    "deaths": "182",
+    "effectiveReproductionNumber": "1.3"
+  },
+  {
+    "date": "2020-12-01",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "12712",
+    "peopleTested": "273315.0",
+    "hospitalized": "1363.0",
+    "serious": "60",
+    "discharged": "11156.0",
+    "deaths": "197",
+    "effectiveReproductionNumber": "1.07"
+  },
+  {
+    "date": "2020-12-15",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "15397",
+    "peopleTested": "314504.0",
+    "hospitalized": "1670.0",
+    "serious": "55",
+    "discharged": "13501.0",
+    "deaths": "226",
+    "effectiveReproductionNumber": "1.24"
+  },
+  {
+    "date": "2021-01-01",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "21731",
+    "peopleTested": "370738.0",
+    "hospitalized": "3464.0",
+    "serious": "73",
+    "discharged": "17993.0",
+    "deaths": "276",
+    "effectiveReproductionNumber": "1.19"
+  },
+  {
+    "date": "2021-01-15",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "31562",
+    "peopleTested": "442843.0",
+    "hospitalized": "6139.0",
+    "serious": "101",
+    "discharged": "25084.0",
+    "deaths": "340",
+    "effectiveReproductionNumber": "1.35"
+  },
+  {
+    "date": "2021-02-01",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "40985",
+    "peopleTested": "520700.0",
+    "hospitalized": "3002.0",
+    "serious": "103",
+    "discharged": "37510.0",
+    "deaths": "473",
+    "effectiveReproductionNumber": "0.71"
+  },
+  {
+    "date": "2021-02-15",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "43335",
+    "peopleTested": "567874.0",
+    "hospitalized": "1422.0",
+    "serious": "40",
+    "discharged": "41315.0",
+    "deaths": "598",
+    "effectiveReproductionNumber": "0.74"
+  },
+  {
+    "date": "2021-03-01",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "44951",
+    "peopleTested": "611746.0",
+    "hospitalized": "1055.0",
+    "serious": "27",
+    "discharged": "43215.0",
+    "deaths": "681",
+    "effectiveReproductionNumber": "0.93"
+  },
+  {
+    "date": "2021-03-15",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "46447",
+    "peopleTested": "655008.0",
+    "hospitalized": "977.0",
+    "serious": "37",
+    "discharged": "44723.0",
+    "deaths": "747",
+    "effectiveReproductionNumber": "0.94"
+  },
+  {
+    "date": "2021-04-01",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "48204",
+    "peopleTested": "708947.0",
+    "hospitalized": "917.0",
+    "serious": "22",
+    "discharged": "46502.0",
+    "deaths": "785",
+    "effectiveReproductionNumber": "1.07"
+  },
+  {
+    "date": "2021-04-15",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "50203",
+    "peopleTested": "756874.0",
+    "hospitalized": "1289.0",
+    "serious": "26",
+    "discharged": "48114.0",
+    "deaths": "800",
+    "effectiveReproductionNumber": "1.22"
+  },
+  {
+    "date": "2021-05-01",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "53810",
+    "peopleTested": "818574.0",
+    "hospitalized": "1961.0",
+    "serious": "43",
+    "discharged": "51031.0",
+    "deaths": "818",
+    "effectiveReproductionNumber": "1.04"
+  },
+  {
+    "date": "2021-05-15",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "57577",
+    "peopleTested": "873867.0",
+    "hospitalized": "2451.0",
+    "serious": "48",
+    "discharged": "54272.0",
+    "deaths": "854",
+    "effectiveReproductionNumber": "1.25"
+  },
+  {
+    "date": "2021-06-01",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "61675",
+    "peopleTested": "940650.0",
+    "hospitalized": "1882.0",
+    "serious": "74",
+    "discharged": "58909.0",
+    "deaths": "884",
+    "effectiveReproductionNumber": "0.86"
+  },
+  {
+    "date": "2021-06-15",
+    "prefectureNameJ": "神奈川県",
+    "testedPositive": "64495",
+    "peopleTested": "992595.0",
+    "hospitalized": "1691.0",
+    "serious": "43",
+    "discharged": "61880.0",
+    "deaths": "924",
+    "effectiveReproductionNumber": "0.92"
+  },
+  {
+    "date": "2020-07-01",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "1843",
+    "peopleTested": "41257.0",
+    "hospitalized": "45.0",
+    "serious": "3",
+    "discharged": "1712.0",
+    "deaths": "86",
+    "effectiveReproductionNumber": "1.57"
+  },
+  {
+    "date": "2020-07-15",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "2126",
+    "peopleTested": "49518.0",
+    "hospitalized": "153.0",
+    "serious": "5",
+    "discharged": "1830.0",
+    "deaths": "86",
+    "effectiveReproductionNumber": "2.16"
+  },
+  {
+    "date": "2020-08-01",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "4252",
+    "peopleTested": "74937.0",
+    "hospitalized": "1339.0",
+    "serious": "20",
+    "discharged": "2820.0",
+    "deaths": "90",
+    "effectiveReproductionNumber": "1.45"
+  },
+  {
+    "date": "2020-08-15",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "6698",
+    "peopleTested": "103339.0",
+    "hospitalized": "1695.0",
+    "serious": "70",
+    "discharged": "4892.0",
+    "deaths": "106",
+    "effectiveReproductionNumber": "0.89"
+  },
+  {
+    "date": "2020-09-01",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "8656",
+    "peopleTested": "136319.0",
+    "hospitalized": "1228.0",
+    "serious": "61",
+    "discharged": "7266.0",
+    "deaths": "155",
+    "effectiveReproductionNumber": "0.77"
+  },
+  {
+    "date": "2020-09-15",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "9725",
+    "peopleTested": "161815.0",
+    "hospitalized": "830.0",
+    "serious": "35",
+    "discharged": "8700.0",
+    "deaths": "186",
+    "effectiveReproductionNumber": "1.06"
+  },
+  {
+    "date": "2020-10-01",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "10669",
+    "peopleTested": "186447.0",
+    "hospitalized": "513.0",
+    "serious": "24",
+    "discharged": "9939.0",
+    "deaths": "209",
+    "effectiveReproductionNumber": "0.98"
+  },
+  {
+    "date": "2020-10-15",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "11361",
+    "peopleTested": "208200.0",
+    "hospitalized": "450.0",
+    "serious": "21",
+    "discharged": "10671.0",
+    "deaths": "224",
+    "effectiveReproductionNumber": "1.07"
+  },
+  {
+    "date": "2020-11-01",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "12876",
+    "peopleTested": "237906.0",
+    "hospitalized": "977.0",
+    "serious": "26",
+    "discharged": "11636.0",
+    "deaths": "244",
+    "effectiveReproductionNumber": "1.37"
+  },
+  {
+    "date": "2020-11-15",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "15421",
+    "peopleTested": "270830.0",
+    "hospitalized": "1961.0",
+    "serious": "66",
+    "discharged": "13180.0",
+    "deaths": "261",
+    "effectiveReproductionNumber": "1.47"
+  },
+  {
+    "date": "2020-12-01",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "20591",
+    "peopleTested": "328225.0",
+    "hospitalized": "4173.0",
+    "serious": "125",
+    "discharged": "16073.0",
+    "deaths": "326",
+    "effectiveReproductionNumber": "1.02"
+  },
+  {
+    "date": "2020-12-15",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "25420",
+    "peopleTested": "388356.0",
+    "hospitalized": "4233.0",
+    "serious": "158",
+    "discharged": "20740.0",
+    "deaths": "431",
+    "effectiveReproductionNumber": "1.01"
+  },
+  {
+    "date": "2021-01-01",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "30261",
+    "peopleTested": "468720.0",
+    "hospitalized": "3671.0",
+    "serious": "165",
+    "discharged": "26002.0",
+    "deaths": "588",
+    "effectiveReproductionNumber": "0.98"
+  },
+  {
+    "date": "2021-01-15",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "37002",
+    "peopleTested": "549772.0",
+    "hospitalized": "6417.0",
+    "serious": "187",
+    "discharged": "29859.0",
+    "deaths": "726",
+    "effectiveReproductionNumber": "1.16"
+  },
+  {
+    "date": "2021-02-01",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "43900",
+    "peopleTested": "654585.0",
+    "hospitalized": "4783.0",
+    "serious": "179",
+    "discharged": "38187.0",
+    "deaths": "930",
+    "effectiveReproductionNumber": "0.76"
+  },
+  {
+    "date": "2021-02-15",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "46016",
+    "peopleTested": "725167.0",
+    "hospitalized": "1876.0",
+    "serious": "142",
+    "discharged": "42638.0",
+    "deaths": "1058",
+    "effectiveReproductionNumber": "0.72"
+  },
+  {
+    "date": "2021-03-01",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "47179",
+    "peopleTested": "792868.0",
+    "hospitalized": "1072.0",
+    "serious": "87",
+    "discharged": "44575.0",
+    "deaths": "1119",
+    "effectiveReproductionNumber": "0.82"
+  },
+  {
+    "date": "2021-03-15",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "48373",
+    "peopleTested": "895125.0",
+    "hospitalized": "1031.0",
+    "serious": "60",
+    "discharged": "45774.0",
+    "deaths": "1156",
+    "effectiveReproductionNumber": "1.18"
+  },
+  {
+    "date": "2021-04-01",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "52817",
+    "peopleTested": "1061196.0",
+    "hospitalized": "3630.0",
+    "serious": "96",
+    "discharged": "47587.0",
+    "deaths": "1184",
+    "effectiveReproductionNumber": "1.86"
+  },
+  {
+    "date": "2021-04-15",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "64382",
+    "peopleTested": "1198468.0",
+    "hospitalized": "10940.0",
+    "serious": "261",
+    "discharged": "51638.0",
+    "deaths": "1238",
+    "effectiveReproductionNumber": "1.31"
+  },
+  {
+    "date": "2021-05-01",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "82447",
+    "peopleTested": "1436589.0",
+    "hospitalized": "19705.0",
+    "serious": "415",
+    "discharged": "60483.0",
+    "deaths": "1497",
+    "effectiveReproductionNumber": "1.02"
+  },
+  {
+    "date": "2021-05-15",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "94155",
+    "peopleTested": "1628077.0",
+    "hospitalized": "19678.0",
+    "serious": "380",
+    "discharged": "71619.0",
+    "deaths": "1943",
+    "effectiveReproductionNumber": "0.91"
+  },
+  {
+    "date": "2021-06-01",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "99920",
+    "peopleTested": "1835005.0",
+    "hospitalized": "8411.0",
+    "serious": "339",
+    "discharged": "88261.0",
+    "deaths": "2336",
+    "effectiveReproductionNumber": "0.72"
+  },
+  {
+    "date": "2021-06-15",
+    "prefectureNameJ": "大阪府",
+    "testedPositive": "101941",
+    "peopleTested": "1982866.0",
+    "hospitalized": "4066.0",
+    "serious": "198",
+    "discharged": "94486.0",
+    "deaths": "2544",
+    "effectiveReproductionNumber": "0.76"
+  },
+  {
+    "date": "2020-07-01",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "142",
+    "peopleTested": "3023.0",
+    "hospitalized": "0.0",
+    "serious": "0",
+    "discharged": "139.0",
+    "deaths": "7",
+    "effectiveReproductionNumber": ""
+  },
+  {
+    "date": "2020-07-15",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "148",
+    "peopleTested": "3381.0",
+    "hospitalized": "4.0",
+    "serious": "0",
+    "discharged": "141.0",
+    "deaths": "7",
+    "effectiveReproductionNumber": "1.64"
+  },
+  {
+    "date": "2020-08-01",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "453",
+    "peopleTested": "8338.0",
+    "hospitalized": "302.0",
+    "serious": "3",
+    "discharged": "148.0",
+    "deaths": "7",
+    "effectiveReproductionNumber": "4.1"
+  },
+  {
+    "date": "2020-08-15",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "1558",
+    "peopleTested": "16561.0",
+    "hospitalized": "1123.0",
+    "serious": "17",
+    "discharged": "428.0",
+    "deaths": "11",
+    "effectiveReproductionNumber": "1.1"
+  },
+  {
+    "date": "2020-09-01",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "2139",
+    "peopleTested": "25614.0",
+    "hospitalized": "430.0",
+    "serious": "11",
+    "discharged": "1685.0",
+    "deaths": "28",
+    "effectiveReproductionNumber": "0.76"
+  },
+  {
+    "date": "2020-09-15",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "2297",
+    "peopleTested": "33812.0",
+    "hospitalized": "182.0",
+    "serious": "8",
+    "discharged": "2074.0",
+    "deaths": "45",
+    "effectiveReproductionNumber": "0.69"
+  },
+  {
+    "date": "2020-10-01",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "2516",
+    "peopleTested": "39290.0",
+    "hospitalized": "204.0",
+    "serious": "9",
+    "discharged": "2270.0",
+    "deaths": "46",
+    "effectiveReproductionNumber": "1.56"
+  },
+  {
+    "date": "2020-10-15",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "2826",
+    "peopleTested": "45857.0",
+    "hospitalized": "260.0",
+    "serious": "9",
+    "discharged": "2519.0",
+    "deaths": "51",
+    "effectiveReproductionNumber": "0.9"
+  },
+  {
+    "date": "2020-11-01",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "3363",
+    "peopleTested": "58299.0",
+    "hospitalized": "341.0",
+    "serious": "7",
+    "discharged": "2964.0",
+    "deaths": "63",
+    "effectiveReproductionNumber": "0.85"
+  },
+  {
+    "date": "2020-11-15",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "3741",
+    "peopleTested": "65248.0",
+    "hospitalized": "311.0",
+    "serious": "3",
+    "discharged": "3369.0",
+    "deaths": "66",
+    "effectiveReproductionNumber": "1.3"
+  },
+  {
+    "date": "2020-12-01",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "4353",
+    "peopleTested": "73253.0",
+    "hospitalized": "404.0",
+    "serious": "5",
+    "discharged": "3885.0",
+    "deaths": "69",
+    "effectiveReproductionNumber": "1.24"
+  },
+  {
+    "date": "2020-12-15",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "4824",
+    "peopleTested": "80078.0",
+    "hospitalized": "366.0",
+    "serious": "7",
+    "discharged": "4386.0",
+    "deaths": "77",
+    "effectiveReproductionNumber": "0.86"
+  },
+  {
+    "date": "2021-01-01",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "5413",
+    "peopleTested": "90097.0",
+    "hospitalized": "398.0",
+    "serious": "7",
+    "discharged": "4939.0",
+    "deaths": "81",
+    "effectiveReproductionNumber": "1.24"
+  },
+  {
+    "date": "2021-01-15",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "6181",
+    "peopleTested": "98894.0",
+    "hospitalized": "579.0",
+    "serious": "7",
+    "discharged": "5521.0",
+    "deaths": "86",
+    "effectiveReproductionNumber": "1.15"
+  },
+  {
+    "date": "2021-02-01",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "7585",
+    "peopleTested": "126082.0",
+    "hospitalized": "759.0",
+    "serious": "7",
+    "discharged": "6741.0",
+    "deaths": "90",
+    "effectiveReproductionNumber": "0.93"
+  },
+  {
+    "date": "2021-02-15",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "7995",
+    "peopleTested": "137656.0",
+    "hospitalized": "360.0",
+    "serious": "2",
+    "discharged": "7538.0",
+    "deaths": "102",
+    "effectiveReproductionNumber": "0.5"
+  },
+  {
+    "date": "2021-03-1",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "8200",
+    "peopleTested": "145625.0",
+    "hospitalized": "269.0",
+    "serious": "1",
+    "discharged": "7817.0",
+    "deaths": "119",
+    "effectiveReproductionNumber": "1.06"
+  },
+  {
+    "date": "2021-03-15",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "8512",
+    "peopleTested": "153212.0",
+    "hospitalized": "296.0",
+    "serious": "2",
+    "discharged": "8100.0",
+    "deaths": "122",
+    "effectiveReproductionNumber": "1.26"
+  },
+  {
+    "date": "2021-04-01",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "9575",
+    "peopleTested": "164199.0",
+    "hospitalized": "719.0",
+    "serious": "4",
+    "discharged": "8734.0",
+    "deaths": "128",
+    "effectiveReproductionNumber": "1.39"
+  },
+  {
+    "date": "2021-04-15",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "11137",
+    "peopleTested": "176389.0",
+    "hospitalized": "1227.0",
+    "serious": "11",
+    "discharged": "9786.0",
+    "deaths": "130",
+    "effectiveReproductionNumber": "1.35"
+  },
+  {
+    "date": "2021-05-01",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "12568",
+    "peopleTested": "191970.0",
+    "hospitalized": "1153.0",
+    "serious": "9",
+    "discharged": "11284.0",
+    "deaths": "137",
+    "effectiveReproductionNumber": "0.81"
+  },
+  {
+    "date": "2021-05-15",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "13781",
+    "peopleTested": "202299.0",
+    "hospitalized": "1447.0",
+    "serious": "12",
+    "discharged": "12199.0",
+    "deaths": "141",
+    "effectiveReproductionNumber": "1.56"
+  },
+  {
+    "date": "2021-06-01",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "17267",
+    "peopleTested": "220905.0",
+    "hospitalized": "2674.0",
+    "serious": "88",
+    "discharged": "14448.0",
+    "deaths": "151",
+    "effectiveReproductionNumber": "1.24"
+  },
+  {
+    "date": "2021-06-15",
+    "prefectureNameJ": "沖縄県",
+    "testedPositive": "19669",
+    "peopleTested": "237686.0",
+    "hospitalized": "1974.0",
+    "serious": "75",
+    "discharged": "17538.0",
+    "deaths": "163",
+    "effectiveReproductionNumber": "0.7"
+  }
 ]

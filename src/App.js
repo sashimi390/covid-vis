@@ -44,18 +44,27 @@ function VerticalAxis({ scale, val }) {
   );
 }
 
-function HorizontalAxis({ scale, val }) {
+function HorizontalAxis({ scale, val, x2 }) {
   const strokeColor = "#888";
   const y = 1200;
+  /*
   const [x1, x2] = scale.range();
+  console.log(x1, x2)
+  */
+  console.log(scale);
   return (
     <g>
-      <line x1={x1} y1={y} x2={x2} y2={y} stroke={strokeColor} />
+      <line x1={0} y1={y} x2={800} y2={y} stroke={strokeColor} />
       <g>
-        {scale.ticks().map((x, i) => {
+        {scale.map((x, i) => {
+          console.log(x2(new Date(x)));
           return (
-            <g key={i} transform={`translate(${scale(x)},800)`}>
-              <line y1="-10" y2="0" stroke={strokeColor} />
+            <g
+              key={i}
+              transform={`translate(${
+                x2(new Date(x)) - 5
+              },1220)rotate(-90)scale(0.5)`}
+            >
               <text
                 y="15"
                 textAnchor="middle"
@@ -123,15 +132,18 @@ export default function App() {
   const handleChangeY = (event) => {
     setYProperty(event.target.value);
   };
-  console.log(xProperty);
-  console.log(yProperty);
+  console.log(contentWidth);
 
+  /* //わからんから変えた、知らん
   const xScale = d3
     .scaleLinear()
     .domain(d3.extent(data, (item) => item[xProperty]))
-
     .range([0, contentWidth])
-    .nice();
+    .nice()
+  */
+
+  // 雑にデータ格納した
+  const xScale = data.map((data) => data[xProperty]).slice(0, 24);
 
   var x2 = d3
     .scaleTime()
@@ -178,7 +190,7 @@ export default function App() {
         style={{ border: "Solid 1px" }}
       >
         <VerticalAxis scale={yScale} val={yProperty} />
-        <HorizontalAxis scale={xScale} val={xProperty} />
+        <HorizontalAxis scale={xScale} val={xProperty} x2={x2} />
         <Legend color={colorScale} />
         <g>
           {data.map((item, i) => {
