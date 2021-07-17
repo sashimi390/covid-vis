@@ -7,17 +7,9 @@
     "build": "react-scripts build",
     "start": "react-scripts start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sashimi390/covid-vis.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sashimi390/covid-vis/issues"
-  },
-  "homepage": "https://github.com/sashimi390/covid-vis#readme",
   "dependencies": {
     "d3": "^7.0.0",
     "react": "^17.0.2",
