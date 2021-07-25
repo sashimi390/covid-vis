@@ -217,7 +217,7 @@ export default function App() {
                 key={i}
                 cx={x2(new Date(item[xProperty]))}
                 cy={yScale(item[yProperty])}
-                r="3"
+                r="5"
                 fill={colorScale(item.prefectureNameJ)}
                 style={{
                   transitionDuration: "1s",
