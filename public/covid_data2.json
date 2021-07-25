@@ -294,6 +294,17 @@
         "effectiveReproductionNumber": "1.48"
       },
       {
+        "date": "2020-08-01",
+        "prefectureNameJ": "東京都",
+        "testedPositive": "13161",
+        "peopleTested": "201229.0",
+        "hospitalized": "3214.0",
+        "serious": "15",
+        "discharged": "9615.0",
+        "deaths": "332",
+        "effectiveReproductionNumber": "1.17"
+      },
+      {
         "date": "2020-08-15",
         "prefectureNameJ": "東京都",
         "testedPositive": "17451",
