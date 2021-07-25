@@ -45,7 +45,7 @@ function VerticalAxis({ scale, val }) {
           textAnchor="end"
           dominantBaseline="central"
           fontSize="12"
-          transform="translate(-65,600)rotate(-90)"
+          transform="translate(-60,200)rotate(-90)"
         >
           {val}
         </text>
@@ -57,7 +57,7 @@ function VerticalAxis({ scale, val }) {
 
 function HorizontalAxis({ scale, val, x2 }) {
   const strokeColor = "#888";
-  const y = 1200;
+  const y = 400;
 
   return (
     <g>
@@ -69,7 +69,7 @@ function HorizontalAxis({ scale, val, x2 }) {
               key={i}
               transform={`translate(${
                 x2(new Date(x)) - 5
-              },1220)rotate(-90)scale(0.5)`}
+              },420)rotate(-90)scale(0.5)`}
             >
               <text
                 y="15"
@@ -87,7 +87,7 @@ function HorizontalAxis({ scale, val, x2 }) {
         textAnchor="end"
         dominantBaseline="central"
         fontSize="12"
-        transform="translate(400,1230)"
+        transform="translate(417,430)"
       >
         {val}
       </text>
@@ -100,7 +100,7 @@ function Legend({ color }) {
     <g>
       {color.domain().map((data, i) => {
         return (
-          <g key={i} transform={`translate(840,${i * 20})`}>
+          <g key={i} transform={`translate(830,${i * 20})`}>
             <circle r="3" fill={color(data)} />
             <text x="10" y="3" fontSize="12">
               {data}{" "}
@@ -135,7 +135,7 @@ export default function App() {
     right: 100,
   };
   const contentWidth = 800;
-  const contentHeight = 1200;
+  const contentHeight = 400;
 
   const [data, setData] = useState([]);
   const [data2, setData2] = useState([]);
@@ -153,13 +153,13 @@ export default function App() {
 
   const [xProperty, setXProperty] = useState("date");
 
-  const [yProperty, setYProperty] = useState("peopleTested");
+  const [yProperty, setYProperty] = useState("testedPositive");
   const handleChangeY = (event) => {
     setYProperty(event.target.value);
   };
 
   const xScale = data.map((data) => data[xProperty]).slice(0, 24);
-  console.log(xScale);
+  /* console.log(xScale); */
   var x2 = d3
     .scaleTime()
     .domain(d3.extent(data, (d) => new Date(d.date)))
