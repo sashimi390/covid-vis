@@ -1,6 +1,17 @@
 import * as d3 from "d3";
 import { useEffect, useState } from "react";
 
+function Header() {
+  return (
+    <header className="hero is-small is-success	 is-bold">
+      <div className="hero-body">
+        <h1 className="title">Covid-19</h1>
+        <p className="subtitle">5都道府県の比較</p>
+      </div>
+    </header>
+  );
+}
+
 function VerticalAxis({ scale, val }) {
   const strokeColor = "#888";
   const x = 0;
@@ -101,6 +112,21 @@ function Legend({ color }) {
   );
 }
 
+function Footer() {
+  return (
+    <footer className="footer">
+      <div className="content has-text-centered">
+        <p> From COVID-19</p>
+        <p>
+          <a href="https://www3.nhk.or.jp/news/special/coronavirus/">
+            When will the COVID-19 problem settle down?
+          </a>
+        </p>
+      </div>
+    </footer>
+  );
+}
+
 export default function App() {
   const margin = {
     top: 10,
@@ -162,6 +188,7 @@ export default function App() {
 
   return (
     <div>
+      <Header />
       <div>
         <form>
           <label className="label">yProperty</label>
@@ -174,7 +201,6 @@ export default function App() {
           </select>
         </form>
       </div>
-
       <svg
         viewBox={`${-margin.left} ${-margin.top} ${svgWidth} ${svgHeight}`}
         style={{ border: "Solid 1px" }}
@@ -216,9 +242,9 @@ export default function App() {
               />
             );
           })}
-          ;
         </g>
       </svg>
+      <Footer />
     </div>
   );
 }
