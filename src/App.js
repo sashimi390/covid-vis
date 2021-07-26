@@ -139,6 +139,21 @@ export default function App() {
 
   const [data, setData] = useState([]);
   const [data2, setData2] = useState([]);
+  const [showData, setShowData] = useState(undefined);
+  const [mousePosition, setMousePosition] = useState([-300, -300]);
+  //mousePosition->mouseがいるところ [0]->x,[1]->y
+
+  function overHandle(event, value) {
+    console.log(event);
+    //e.pageX or e.pageYでその画面内の座標がわかる
+    setMousePosition([event.pageX, event.pageY]);
+    setShowData(value);
+  }
+
+  function outHandle() {
+    setShowData(undefined);
+    setMousePosition([-300, -300]);
+  }
 
   useEffect(() => {
     (async () => {
@@ -181,7 +196,7 @@ export default function App() {
     });
 
   const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
-  console.log(colorScale);
+  /* console.log(colorScale); */
 
   const svgWidth = margin.right + margin.left + contentWidth;
   const svgHeight = margin.top + margin.bottom + contentHeight;
@@ -210,7 +225,7 @@ export default function App() {
         <Legend color={colorScale} />
         <g>
           {data.map((item, i) => {
-            console.log(item);
+            /*  console.log(item); */
             return (
               <circle
                 className="move"
@@ -223,6 +238,8 @@ export default function App() {
                   transitionDuration: "1s",
                   transitionProperty: "all",
                 }}
+                onMouseEnter={(event) => overHandle(event, item[yProperty])}
+                onMouseLeave={outHandle}
               />
             );
           })}
@@ -244,6 +261,22 @@ export default function App() {
           })}
         </g>
       </svg>
+      {/* {三項演算子を使ってundefinedの時前者,そうでないとき後者 positionに+5とかするとちょっと判定範囲がいい感じになる} */}
+      <div
+        className={showData === undefined ? "card popup" : "card show popup"}
+        style={{
+          position: "absolute",
+          left: mousePosition[0],
+          top: mousePosition[1] + 5,
+        }}
+      >
+        <div className="card-content">
+          <div className="content">
+            <p>{yProperty}</p>
+            <p>{showData}</p>
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   );
