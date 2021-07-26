@@ -57,7 +57,7 @@ function VerticalAxis({ scale, val }) {
 
 function HorizontalAxis({ scale, val, x2 }) {
   const strokeColor = "#888";
-  const y = 400;
+  const y = 500;
 
   return (
     <g>
@@ -69,7 +69,7 @@ function HorizontalAxis({ scale, val, x2 }) {
               key={i}
               transform={`translate(${
                 x2(new Date(x)) - 5
-              },420)rotate(-90)scale(0.5)`}
+              },520)rotate(-90)scale(0.5)`}
             >
               <text
                 y="15"
@@ -87,7 +87,7 @@ function HorizontalAxis({ scale, val, x2 }) {
         textAnchor="end"
         dominantBaseline="central"
         fontSize="12"
-        transform="translate(417,430)"
+        transform="translate(417,530)"
       >
         {val}
       </text>
@@ -101,7 +101,7 @@ function Legend({ color }) {
       {color.domain().map((data, i) => {
         return (
           <g key={i} transform={`translate(830,${i * 20})`}>
-            <circle r="3" fill={color(data)} />
+            <circle r="5" fill={color(data)} />
             <text x="10" y="3" fontSize="12">
               {data}{" "}
             </text>
@@ -135,7 +135,7 @@ export default function App() {
     right: 100,
   };
   const contentWidth = 800;
-  const contentHeight = 400;
+  const contentHeight = 500;
 
   const [data, setData] = useState([]);
   const [data2, setData2] = useState([]);
