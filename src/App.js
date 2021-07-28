@@ -122,6 +122,7 @@ function Footer() {
             When will the COVID-19 problem settle down?
           </a>
         </p>
+        <a href="https://japan-virus.netlify.app/">前回のサイトはこちら</a>
       </div>
     </footer>
   );
@@ -140,7 +141,7 @@ export default function App() {
   const [data, setData] = useState([]);
   const [data2, setData2] = useState([]);
   const [showData, setShowData] = useState(undefined);
-  const [mousePosition, setMousePosition] = useState([-300, -300]);
+  const [mousePosition, setMousePosition] = useState([0, 0]);
   //mousePosition->mouseがいるところ [0]->x,[1]->y
 
   function overHandle(event, value) {
@@ -152,7 +153,6 @@ export default function App() {
 
   function outHandle() {
     setShowData(undefined);
-    setMousePosition([-300, -300]);
   }
 
   useEffect(() => {
@@ -239,7 +239,6 @@ export default function App() {
                   transitionProperty: "all",
                 }}
                 onMouseEnter={(event) => overHandle(event, item[yProperty])}
-                onMouseLeave={outHandle}
               />
             );
           })}
@@ -262,21 +261,24 @@ export default function App() {
         </g>
       </svg>
       {/* {三項演算子を使ってundefinedの時前者,そうでないとき後者 positionに+5とかするとちょっと判定範囲がいい感じになる} */}
-      <div
-        className={showData === undefined ? "card popup" : "card show popup"}
-        style={{
-          position: "absolute",
-          left: mousePosition[0],
-          top: mousePosition[1] + 5,
-        }}
-      >
-        <div className="card-content">
-          <div className="content">
-            <p>{yProperty}</p>
-            <p>{showData}</p>
+      {showData !== undefined && ( //mouseOverにしてないときに出力したくない
+        <div
+          className="card show popup" //BULMAのやつ
+          style={{
+            position: "absolute",
+            left: mousePosition[0],
+            top: mousePosition[1] + 5,
+          }}
+          onMouseLeave={outHandle} //なんかいい感じになる
+        >
+          <div className="card-content">
+            <div className="content">
+              <p>{yProperty}</p>
+              <p>{showData}</p>
+            </div>
           </div>
         </div>
-      </div>
+      )}
       <Footer />
     </div>
   );
