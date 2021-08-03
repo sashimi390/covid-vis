@@ -69,13 +69,13 @@ function HorizontalAxis({ scale, val, x2 }) {
               key={i}
               transform={`translate(${
                 x2(new Date(x)) - 5
-              },520)rotate(-90)scale(0.5)`}
+              },523)rotate(-90)scale(0.5)`}
             >
               <text
                 y="15"
                 textAnchor="middle"
                 dominantBaseline="center"
-                fontSize="12"
+                fontSize="14"
               >
                 {x}
               </text>
@@ -86,8 +86,8 @@ function HorizontalAxis({ scale, val, x2 }) {
       <text
         textAnchor="end"
         dominantBaseline="central"
-        fontSize="12"
-        transform="translate(417,530)"
+        fontSize="10"
+        transform="translate(413,537)"
       >
         {val}
       </text>
