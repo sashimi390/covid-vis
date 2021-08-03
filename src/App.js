@@ -173,6 +173,7 @@ export default function App() {
     setYProperty(event.target.value);
   };
 
+  /* 同じ日付が5つあって重複するからsliceで1つにする */
   const xScale = data.map((data) => data[xProperty]).slice(0, 24);
   /* console.log(xScale); */
   var x2 = d3
@@ -240,6 +241,7 @@ export default function App() {
                 }}
                 onMouseEnter={(event) => overHandle(event, item[yProperty])}
               />
+              /* overHandleが発生する */
             );
           })}
         </g>
